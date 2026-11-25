@@ -28,18 +28,18 @@ The 12 primary languages of the aligned parallel corpus and translation engine a
 
 | # | Language | Native Script | ISO Code | NLLB Code | Language Family | Writing Direction |
 |---|----------|---------------|----------|-----------|-----------------|-------------------|
-| 1 | **Hindi** | हिन्दी | `hi` | `hin_Deva` | Indo-Aryan | Left-to-Right |
-| 2 | **Bengali** | বাংলা | `bn` | `ben_Beng` | Indo-Aryan | Left-to-Right |
-| 3 | **Marathi** | मराठी | `mr` | `mar_Deva` | Indo-Aryan | Left-to-Right |
-| 4 | **Telugu** | తెలుగు | `te` | `tel_Telu` | Dravidian | Left-to-Right |
-| 5 | **Tamil** | தமிழ் | `ta` | `tam_Taml` | Dravidian | Left-to-Right |
-| 6 | **Gujarati** | ગુજરાતી | `gu` | `guj_Gujr` | Indo-Aryan | Left-to-Right |
-| 7 | **Urdu** | اردو | `ur` | `urd_Arab` | Indo-Aryan | Right-to-Left (Nastaliq) |
-| 8 | **Kannada** | ಕನ್ನಡ | `kn` | `kan_Knda` | Dravidian | Left-to-Right |
-| 9 | **Odia** | ଓଡ଼ିଆ | `or` / `ori` | `ory_Orya` | Indo-Aryan | Left-to-Right |
-| 10 | **Malayalam** | മലയാളം | `ml` | `mal_Mlym` | Dravidian | Left-to-Right |
-| 11 | **Punjabi** | ਪੰਜਾਬੀ | `pa` | `pan_Guru` | Indo-Aryan | Left-to-Right |
-| 12 | **English** | English | `en` | `eng_Latn` | Indo-European | Left-to-Right |
+| 1 | **Bengali** | বাংলা | `bn` | `ben_Beng` | Indo-Aryan | Left-to-Right |
+| 2 | **English** | English | `en` | `eng_Latn` | Indo-European | Left-to-Right |
+| 3 | **Gujarati** | ગુજરાતી | `gu` | `guj_Gujr` | Indo-Aryan | Left-to-Right |
+| 4 | **Hindi** | हिन्दी | `hi` | `hin_Deva` | Indo-Aryan | Left-to-Right |
+| 5 | **Kannada** | ಕನ್ನಡ | `kn` | `kan_Knda` | Dravidian | Left-to-Right |
+| 6 | **Malayalam** | മലയാളം | `ml` | `mal_Mlym` | Dravidian | Left-to-Right |
+| 7 | **Marathi** | मराठी | `mr` | `mar_Deva` | Indo-Aryan | Left-to-Right |
+| 8 | **Odia** | ଓଡ଼ିଆ | `or` / `ori` | `ory_Orya` | Indo-Aryan | Left-to-Right |
+| 9 | **Punjabi** | ਪੰਜਾਬੀ | `pa` | `pan_Guru` | Indo-Aryan | Left-to-Right |
+| 10 | **Tamil** | தமிழ் | `ta` | `tam_Taml` | Dravidian | Left-to-Right |
+| 11 | **Telugu** | తెలుగు | `te` | `tel_Telu` | Dravidian | Left-to-Right |
+| 12 | **Urdu** | اردو | `ur` | `urd_Arab` | Indo-Aryan | Right-to-Left (Nastaliq) |
 
 > [!NOTE]
 > The strictly aligned 12-way parallel corpus (`pralekha_strict_12way.db`) directly powers all $12 \times 11 = 132$ language pairs, yielding **4.32 Million sentence pairs** strictly between Indian languages without routing through English.
