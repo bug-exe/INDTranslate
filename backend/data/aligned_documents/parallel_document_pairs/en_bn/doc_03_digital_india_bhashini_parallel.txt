@@ -1,0 +1,8 @@
+=== Digital India Bhashini: Breaking Language Barriers Through Artificial Intelligence | ডিজিটাল ইন্ডিয়া ভাষিণী: কৃত্রিম বুদ্ধিমত্তার মাধ্যমে ভাষার বাধা দূরীকরণ ===
+
+[EN] India is home to remarkable linguistic diversity with hundreds of living dialects and twenty-two scheduled languages.
+[BN] ভারত শত শত জীবন্ত উপভাষা এবং বাইশটি তফশিলি ভাষা নিয়ে এক অনন্য ভাষাগত বৈচিত্র্যের দেশ।
+
+[EN] Artificial intelligence language models enable real-time speech translation, voice interfaces, and document synthesis across all regions.
+[BN] কৃত্রিম বুদ্ধিমত্তা ভাষা মডেলগুলি রিয়েল-টাইমে বক্তৃতা অনুবাদ, ভয়েস ইন্টারফেস এবং নথি সংশ্লেষণ সক্ষম করে।
+

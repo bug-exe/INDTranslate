@@ -1,0 +1,40 @@
+{
+  "dataset_name": "IndTranslate Authentic 22-Scheduled-Language + English Aligned Document Corpus",
+  "total_documents": 6,
+  "total_sentences": 15,
+  "supported_languages_count": 23,
+  "languages": [
+    "as",
+    "bn",
+    "brx",
+    "doi",
+    "gu",
+    "hi",
+    "kn",
+    "ks",
+    "kok",
+    "mai",
+    "ml",
+    "mni",
+    "mr",
+    "ne",
+    "or",
+    "pa",
+    "sa",
+    "sat",
+    "sd",
+    "ta",
+    "te",
+    "ur",
+    "en"
+  ],
+  "is_common_among_all_languages": true,
+  "coverage_guarantee": "100% complete across all 22 Eighth Schedule Indian Languages + English",
+  "output_directory": "/home/bugexe/Documents/INDTranslate/backend/data/aligned_documents",
+  "files_generated": {
+    "json_bundle": "/home/bugexe/Documents/INDTranslate/backend/data/aligned_documents/json/all_aligned_documents.json",
+    "jsonl_stream": "/home/bugexe/Documents/INDTranslate/backend/data/aligned_documents/jsonl/aligned_documents.jsonl",
+    "by_language_directory": "/home/bugexe/Documents/INDTranslate/backend/data/aligned_documents/by_language",
+    "parallel_pairs_directory": "/home/bugexe/Documents/INDTranslate/backend/data/aligned_documents/parallel_document_pairs"
+  }
+}

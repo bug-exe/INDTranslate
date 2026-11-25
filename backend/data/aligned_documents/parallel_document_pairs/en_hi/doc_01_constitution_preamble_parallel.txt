@@ -1,0 +1,14 @@
+=== Constitution of India: Preamble and Fundamental Principles | भारत का संविधान: उद्देशिका एवं मौलिक सिद्धांत ===
+
+[EN] We, the people of India, having solemnly resolved to constitute India into a Sovereign Socialist Secular Democratic Republic.
+[HI] हम, भारत के लोग, भारत को एक सम्पूर्ण प्रभुत्व-सम्पन्न समाजवादी पंथनिरपेक्ष लोकतंत्रात्मक गणराज्य बनाने का संकल्प लेते हैं।
+
+[EN] And to secure to all its citizens justice, social, economic and political.
+[HI] तथा उसके समस्त नागरिकों को सामाजिक, आर्थिक और राजनीतिक न्याय सुनिश्चित कराना।
+
+[EN] Liberty of thought, expression, belief, faith and worship is guaranteed to every individual.
+[HI] विचार, अभिव्यक्ति, विश्वास, धर्म और उपासना की स्वतंत्रता प्रत्येक व्यक्ति को प्रदान की जाती है।
+
+[EN] Equality of status and of opportunity, and to promote among them all fraternity assuring the dignity of the individual and the unity and integrity of the Nation.
+[HI] प्रतिष्ठा और अवसर की समता, तथा उन सब में व्यक्ति की गरिमा और राष्ट्र की एकता और अखंडता सुनिश्चित करने वाली बंधुता बढ़ाना।
+

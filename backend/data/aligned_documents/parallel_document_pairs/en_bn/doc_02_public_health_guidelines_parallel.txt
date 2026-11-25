@@ -1,0 +1,11 @@
+=== National Health Advisory: Preventive Healthcare and Sanitation | জাতীয় স্বাস্থ্য নির্দেশিকা: প্রতিরোধমূলক স্বাস্থ্যসেবা ও পরিচ্ছন্নতা ===
+
+[EN] Access to clean drinking water and proper sanitation is the first foundation of community health.
+[BN] বিশুদ্ধ পানীয় জল এবং সঠিক পয়ঃনিষ্কাশনের সুযোগ জনস্বাস্থ্যের প্রথম ভিত্তি।
+
+[EN] Regular hand washing with soap prevents infectious diseases and protects children from illness.
+[BN] সাবান দিয়ে নিয়মিত হাত ধোয়া সংক্রামক রোগ প্রতিরোধ করে এবং শিশুদের সুরক্ষিত রাখে।
+
+[EN] Timely vaccination against childhood diseases ensures long-term immunity and healthy growth.
+[BN] শৈশবের রোগগুলির বিরুদ্ধে সময়মতো টিকাদান দীর্ঘমেয়াদী অনাক্রম্যতা এবং সুস্থ বিকাশ নিশ্চিত করে।
+

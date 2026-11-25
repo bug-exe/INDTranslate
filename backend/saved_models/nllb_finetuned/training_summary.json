@@ -1,0 +1,22 @@
+{
+  "status": "completed_target_reached",
+  "model_name": "Meta NLLB-200 Distilled 600M (LoRA Fine-Tuned 100k+)",
+  "output_dir": "backend/saved_models/nllb_finetuned",
+  "global_step": 10500,
+  "completed_epochs": 1,
+  "current_epoch": 2,
+  "total_pairs_trained": 168000,
+  "best_val_loss": 1.3561,
+  "best_val_ppl": 3.88,
+  "target_pairs": 100000,
+  "target_reached": true,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.6184,
+      "val_loss": 1.3561,
+      "val_ppl": 3.88,
+      "epoch_seconds": 3775.9
+    }
+  ]
+}

@@ -1,0 +1,656 @@
+{
+  "evaluation_timestamp": "2026-11-25 04:52:20",
+  "hardware": "cuda (NVIDIA GeForce RTX 4050 Laptop GPU)",
+  "samples_evaluated": 200,
+  "base_foundation": {
+    "model_label": "Base NLLB-200 Foundation",
+    "samples_evaluated": 200,
+    "overall_metrics": {
+      "chrf_score": 45.76,
+      "bleu1_score": 28.65,
+      "bleu2_score": 15.04,
+      "token_precision": 34.65,
+      "token_recall": 35.0,
+      "token_f1": 32.63,
+      "token_accuracy": 29.54,
+      "degeneracy_rate_pct": 2.0,
+      "avg_latency_ms": 267.6
+    },
+    "category_summary": {
+      "English -> Indic": {
+        "chrf": 49.05,
+        "bleu1": 27.86,
+        "bleu2": 9.25,
+        "token_f1": 29.95,
+        "samples": 14
+      },
+      "Indic -> Indic": {
+        "chrf": 44.15,
+        "bleu1": 26.41,
+        "bleu2": 13.47,
+        "token_f1": 30.17,
+        "samples": 163
+      },
+      "Indic -> English": {
+        "chrf": 55.17,
+        "bleu1": 44.99,
+        "bleu2": 29.74,
+        "token_f1": 51.66,
+        "samples": 23
+      }
+    },
+    "sample_predictions": [
+      {
+        "idx": 1,
+        "src_lang": "pa",
+        "tgt_lang": "or",
+        "category": "Indic -> Indic",
+        "source": "ਮੰਤਰੀ ਮੰਡਲ ਨੇ ਨਵੀਂ ਅਤੇ ਨਵਿਆਉਣਯੋਗ ਊਰਜਾ ਮੰਤਰਾਲੇ , ਭਾਰਤ ਅਤੇ ਅੰਤਰਰਾਸ਼ਟਰੀ ਨਵਿਆਉਣਯੋਗ ਊਰਜਾ ਏਜੰਸੀ  ਦਰਮਿਆਨ ਰਣਨੀਤਕ ਭਾਈਵਾਲੀ ਸਮਝੌਤੇ ਨੂੰ ਪ੍ਰਵਾਨਗੀ ਦਿੱਤੀ",
+        "reference": "କେନ୍ଦ୍ର ମନ୍ତ୍ରୀମଣ୍ଡଳ ଭାରତର ନବୀନ ଏବଂ ନବୀକରଣୀୟ ଶକ୍ତି ମନ୍ତ୍ରଣାଳୟ  ଏବଂ ଆନ୍ତର୍ଜାତୀୟ ଅକ୍ଷୟ ଶକ୍ତି ଏଜେନ୍ସି  ମଧ୍ୟରେ କୌଶଳଗତ ସହଭାଗୀତା ରାଜିନାମାକୁ ମଞ୍ଜୁରୀ ପ୍ରଦାନ କରିଛନ୍ତି",
+        "predicted": "ନୂଆ ଓ ନବୀକରଣଯୋଗ୍ୟ ଶକ୍ତି ମନ୍ତ୍ରଣାଳୟ, ଭାରତ ଏବଂ ଆନ୍ତର୍ଜାତିକ ଅକ୍ଷୟ ଶକ୍ତି ଏଜେନ୍ସି ମଧ୍ୟରେ ରଣନୈତିକ ଭାଗିଦାରୀତା ବୁଝାମଣାକୁ କ୍ୟାବିନେଟ ଅନୁମୋଦନ କରିଛନ୍ତି ।",
+        "chrf": 55.79,
+        "bleu1": 39.95,
+        "f1": 41.03,
+        "is_degenerate": false
+      },
+      {
+        "idx": 2,
+        "src_lang": "ur",
+        "tgt_lang": "pa",
+        "category": "Indic -> Indic",
+        "source": "بڑے اثرات بشمول روزگار پیدا کرنے کا امکان اور مستفیدین کی تعداد:",
+        "reference": "ਇਸ ਪ੍ਰੋਗਰਾਮ ਦਾ ਉਦੇਸ਼ ਬਜ਼ਾਰ ਅਤੇ ਕਰਜ਼ੇ ਤੱਕ ਪਹੁੰਚ ਵਿੱਚ ਸੁਧਾਰ ਕਰਨਾ, ਕੇਂਦਰ ਅਤੇ ਰਾਜ ਵਿੱਚ ਸੰਸਥਾਵਾਂ ਅਤੇ ਸ਼ਾਸਨ ਨੂੰ ਮਜ਼ਬੂਤ ਕਰਨਾ, ਕੇਂਦਰ-ਰਾਜ ਸਬੰਧਾਂ ਅਤੇ ਭਾਈਵਾਲੀ ਵਿੱਚ ਸੁਧਾਰ ਕਰਨਾ, ਦੇਰੀ ਨਾਲ ਭੁਗਤਾਨ ਦੇ ਮੁੱਦਿਆਂ ਨੂੰ ਹੱਲ ਕਰਨਾ ਅਤੇ ਐੱਮਐੱਸਐੱਮਈ’ਜ਼ ਨੂੰ ਗ੍ਰੀਨ ਬਣਾਉਣਾ ਹੈ।",
+        "predicted": "ਰੁਜ਼ਗਾਰ ਪੈਦਾ ਕਰਨ ਦੀ ਸੰਭਾਵਨਾ ਅਤੇ ਲਾਭਪਾਤਰੀਆਂ ਦੀ ਗਿਣਤੀ ਸਮੇਤ ਵੱਡੇ ਪ੍ਰਭਾਵਃ",
+        "chrf": 11.54,
+        "bleu1": 0.53,
+        "f1": 3.51,
+        "is_degenerate": false
+      },
+      {
+        "idx": 3,
+        "src_lang": "ur",
+        "tgt_lang": "ta",
+        "category": "Indic -> Indic",
+        "source": "مرکزی کابینہ نے انسٹی ٹیوٹ آف کوسٹ اکاؤنٹینٹ آف انڈیا  اور ایسوسی ایشن آف چارٹرڈ سرٹیفائیڈ اکاؤنٹینٹ ، برطانیہ کے درمیان مفاہمت نامہ کو منظوری دی",
+        "reference": "ஐசிஓஏஐ, ஏசிசிஏ ஆகியவற்றுக்கிடையேயான புரிந்துணர்வு ஒப்பந்தத்திற்கு அமைச்சரவை ஒப்புதல்",
+        "predicted": "இந்திய கடலோரக் கணக்காளர் நிறுவனம் மற்றும் இங்கிலாந்து சார்ட் பட்டய சான்றிதழ் கணக்காளர்கள் சங்கம் இடையே புரிந்துணர்வு ஒப்பந்தத்திற்கு மத்திய அமைச்சரவை ஒப்புதல்",
+        "chrf": 59.21,
+        "bleu1": 23.53,
+        "f1": 33.33,
+        "is_degenerate": false
+      },
+      {
+        "idx": 4,
+        "src_lang": "ur",
+        "tgt_lang": "pa",
+        "category": "Indic -> Indic",
+        "source": "کابینہ",
+        "reference": "ਮੰਤਰੀ ਮੰਡਲ",
+        "predicted": "ਕੈਬਨਿਟ",
+        "chrf": 0.0,
+        "bleu1": 0.0,
+        "f1": 0.0,
+        "is_degenerate": false
+      },
+      {
+        "idx": 5,
+        "src_lang": "mr",
+        "tgt_lang": "gu",
+        "category": "Indic -> Indic",
+        "source": "मंत्रिमंडळ",
+        "reference": "મંત્રીમંડળ",
+        "predicted": "મંત્રીમંડળ",
+        "chrf": 100.0,
+        "bleu1": 100.0,
+        "f1": 100.0,
+        "is_degenerate": false
+      },
+      {
+        "idx": 6,
+        "src_lang": "ml",
+        "tgt_lang": "en",
+        "category": "Indic -> English",
+        "source": "2022-ൽ ലിത്വാനിയയിൽ ഒരു പുതിയ ഇന്ത്യൻ കാര്യാലയം തുറക്കുന്നതിന് പ്രധാനമന്ത്രി ശ്രീ നരേന്ദ്ര മോദിയുടെ അധ്യക്ഷതയിൽ ചേർന്ന കേന്ദ്രമന്ത്രിസഭ അംഗീകാരം നൽകി.",
+        "reference": "The Union Cabinet chaired by the Prime Minister Shri Narendra Modi has accorded approval to the opening of a new Indian Mission in Lithuania in 2022.",
+        "predicted": "The Union Cabinet chaired by the Prime Minister Shri Narendra Modi has approved the opening of a new Indian Office in Lithuania in 2022.",
+        "chrf": 83.92,
+        "bleu1": 84.34,
+        "f1": 88.0,
+        "is_degenerate": false
+      },
+      {
+        "idx": 7,
+        "src_lang": "kn",
+        "tgt_lang": "mr",
+        "category": "Indic -> Indic",
+        "source": "ತಗಲುವ ವೆಚ್ಚ:",
+        "reference": "या प्रकल्पाची अंदाजे किंमत 1072 कोटी रुपये असून त्यात तिचा 5 वर्षांपर्यंतचा परीचालन खर्च अंतर्भूत आहे. या प्रकल्पाला युनिव्हर्सल सर्विस आँब्लिगेशन फंडामधून निधी दिला जाणार आहे.",
+        "predicted": "राहण्याचा खर्च:",
+        "chrf": 4.88,
+        "bleu1": 0.0,
+        "f1": 7.14,
+        "is_degenerate": false
+      },
+      {
+        "idx": 8,
+        "src_lang": "bn",
+        "tgt_lang": "kn",
+        "category": "Indic -> Indic",
+        "source": "কেন্দ্রীয় মন্ত্রিসভার ভারত ও সুরিনামের মধ্যে ওষুধ সংক্রান্ত স্বাক্ষরিত চুক্তিটি অনুমোদন",
+        "reference": "ಔಷಧ ನಿಯಂತ್ರಣ ಕ್ಷೇತ್ರದಲ್ಲಿ ಭಾರತ ಮತ್ತು ಸುರಿನಾಮೆ ನಡುವಿನ ಸಹಿ ಒಪ್ಪಂದಕ್ಕೆ ಕೇಂದ್ರ ಸಂಪುಟ ಅನುಮೋದನೆ",
+        "predicted": "ಭಾರತ ಮತ್ತು ಸುರಿನಾಂ ನಡುವೆ ಔಷಧ ಒಪ್ಪಂದಕ್ಕೆ ಕೇಂದ್ರ ಸಚಿವ ಸಂಪುಟದ ಅನುಮೋದನೆ",
+        "chrf": 60.53,
+        "bleu1": 49.12,
+        "f1": 54.55,
+        "is_degenerate": false
+      },
+      {
+        "idx": 9,
+        "src_lang": "bn",
+        "tgt_lang": "mr",
+        "category": "Indic -> Indic",
+        "source": "প্রধানমন্ত্রী শ্রী নরেন্দ্র মোদীর পৌরোহিত্যে কেন্দ্রীয় মন্ত্রিসভা আন্তঃরাজ্য নদী জল বিবাদ  আইন, ১৯৫৬-র ৫ ধারার আওতায় কৃষ্ণা নদীর জলবন্টন নিয়ে তেলেঙ্গানা ও অন্ধ্রপ্রদেশের বিবাদের নিষ্পত্তিতে গঠিত কৃষ্ণা জল বিরোধ ট্রাইব্যুনাল-II –এর অতিরিক্ত শর্তাবলী অনুমোদন করেছে",
+        "reference": "पंतप्रधान नरेंद्र मोदी यांच्या अध्यक्षतेखाली झालेल्या केंद्रीय मंत्रिमंडळाच्या बैठकीत मंत्रिमंडळाने सध्या अस्तित्वात असलेल्या आंतरराज्य नदी पाणी तंटा  कायदा, 1956 च्या कलम 5 अंतर्गत कृष्णा पाणी तंटा लवाद- II च्या पुढील संदर्भ अटीना मंजुरी दिली आहे",
+        "predicted": "पंतप्रधान नरेंद्र मोदी यांच्या अध्यक्षतेखाली केंद्रीय मंत्रिमंडळाने तेलंगणा आणि आंध्र प्रदेशमधील कृष्णा नदीच्या पाणीपुरवठा प्रकरणी आंतरराज्यीय नद्या विवाद कायदा, 1956 च्या कलम 5 अंतर्गत झालेल्या विवादांच्या निपटारासाठी कृष्णा जलविवाद न्यायालयाची अतिरिक्त तरतुदी मंजूर केली.",
+        "chrf": 62.5,
+        "bleu1": 42.84,
+        "f1": 43.48,
+        "is_degenerate": false
+      },
+      {
+        "idx": 10,
+        "src_lang": "mr",
+        "tgt_lang": "ml",
+        "category": "Indic -> Indic",
+        "source": "महामंडळात 59 स्थायी कर्मचारी आणि 6 व्यवस्थापन प्रशिक्षणार्थी कार्यरत आहेत",
+        "reference": "59 സ്ഥിരം ജീവനക്കാരും 6 മാനേജ്മെന്റ് ട്രെയിനികളും നിലവിൽ കോർപ്പറേഷനിൽ സേവനമനുഷ്ഠിക്കുന്നു",
+        "predicted": "59 സ്ഥിരം ജീവനക്കാരും 6 മാനേജ്മെന്റ് പരിശീലകരും കോർപ്പറേഷനിൽ ജോലി ചെയ്യുന്നു.",
+        "chrf": 61.49,
+        "bleu1": 66.67,
+        "f1": 66.67,
+        "is_degenerate": false
+      },
+      {
+        "idx": 11,
+        "src_lang": "ml",
+        "tgt_lang": "gu",
+        "category": "Indic -> Indic",
+        "source": "നിർദ്ദിഷ്ട കാലാവധി നീട്ടലും അതിന്റെ റഫറൻസ് നിബന്ധനകളിലെ കൂട്ടിച്ചേർക്കലുകളും ബന്ധപ്പെട്ടവരുമായി കൂടിയാലോചിച്ച ശേഷം ഒബിസി വിഭാഗങ്ങളുടെ ഉപ വർഗ്ഗീകരണം സംബന്ധിച്ച സമഗ്ര റിപ്പോർട്ട് സമർപ്പിക്കാൻ “കമ്മീഷനെ” പ്രാപ്തമാക്കും.",
+        "reference": "“આયોગ”ની મુદત 31.07.2021થી 31.01.2022 6 મહિના સુધી વધારવાનો આદેશ રાષ્ટ્રપતિની મંજૂરી સાથે સૂચિત કરવામાં આવશે.",
+        "predicted": "આ સૂચિત મુદતના વિસ્તરણ અને તેના સંદર્ભ શરતોમાં ઉમેરાઓ સંબંધિત લોકો સાથે ચર્ચા કર્યા પછી ઓબીસી વિભાગોનાં પેટાવર્ગીકરણ પર એક વ્યાપક અહેવાલ રજૂ કરવા માટે કમિશનને સક્ષમ બનાવશે.",
+        "chrf": 28.05,
+        "bleu1": 7.14,
+        "f1": 8.33,
+        "is_degenerate": false
+      },
+      {
+        "idx": 12,
+        "src_lang": "pa",
+        "tgt_lang": "gu",
+        "category": "Indic -> Indic",
+        "source": "ਇਸ ਸਹਿਯੋਗ ਪੱਤਰ ਦੇ ਤਹਿਤ ਇੱਕ ਸੰਯੁਕਤ ਵਰਕਿੰਗ ਗਰੁੱਪ ਦਾ ਗਠਨ ਕੀਤਾ ਜਾਵੇਗਾ ਜੋ ਇਸ ਸਹਿਯੋਗ ਪੱਤਰ ਦਾ ਅਨੁਪਾਲਨ ਸੁਨਿਸ਼ਚਿਤ ਕਰੇਗਾ।",
+        "reference": "આ સમજૂતી કરાર અંતર્ગત, આ એમઓસીના અમલીકરણને અનુસરવા માટે સંયુક્ત કાર્યકારી જૂથની રચના કરવામાં આવશે.",
+        "predicted": "આ સહયોગી કરાર હેઠળ સંયુક્ત કાર્યકારી જૂથની રચના કરવામાં આવશે જે આ સહકાર્યકરારના પાલનને સુનિશ્ચિત કરશે.",
+        "chrf": 55.19,
+        "bleu1": 56.25,
+        "f1": 58.06,
+        "is_degenerate": false
+      },
+      {
+        "idx": 13,
+        "src_lang": "mr",
+        "tgt_lang": "gu",
+        "category": "Indic -> Indic",
+        "source": "निर्णयाचा परिणाम :",
+        "reference": "શિક્ષણમાં કન્સલ્ટન્સી, ટેકનોલોજીની નિકાસ વગેરે ક્ષેત્રે CDCના અનુભવી સ્ટાફ દ્વારા CSIRને વધુ ઉન્નત બનાવવામાં આવશે",
+        "predicted": "નિર્ણયની અસરઃ",
+        "chrf": 3.68,
+        "bleu1": 0.0,
+        "f1": 0.0,
+        "is_degenerate": false
+      },
+      {
+        "idx": 14,
+        "src_lang": "mr",
+        "tgt_lang": "en",
+        "category": "Indic -> English",
+        "source": "- रासायन व्यवस्थापन;",
+        "reference": "• Climate Change;",
+        "predicted": "- chemical management;",
+        "chrf": 23.75,
+        "bleu1": 0.0,
+        "f1": 0.0,
+        "is_degenerate": false
+      },
+      {
+        "idx": 15,
+        "src_lang": "ta",
+        "tgt_lang": "ur",
+        "category": "Indic -> Indic",
+        "source": "மத்திய அமைச்சரவை",
+        "reference": "کابینہ",
+        "predicted": "مرکزی کابینہ",
+        "chrf": 81.37,
+        "bleu1": 50.0,
+        "f1": 66.67,
+        "is_degenerate": false
+      },
+      {
+        "idx": 40,
+        "src_lang": "pa",
+        "tgt_lang": "te",
+        "category": "Indic -> Indic",
+        "source": "ਖੇਤਰ ਵਿੱਚ ਲੋੜੀਂਦੇ ਨਿਵੇਸ਼ਾਂ ਨੂੰ ਵਰਤਣ ਤੋਂ ਇਲਾਵਾ ਸਰਵਿਸ ਡਿਲਿਵਰੀ, ਮਹਾਰਤ, ਉੱਦਮ ਅਤੇ ਪੇਸ਼ੇਵਰਤਾ ਵਿੱਚ",
+        "reference": "ఈ పిపిపి ప్రయోగాలు ప్రపంచ శ్రేణి విమానాశ్రయాల ను తీర్చిదిద్దడం లో సాయపడ్డాయి",
+        "predicted": "రంగంలో అవసరమైన పెట్టుబడులను వినియోగించుకోవడంతో పాటు సేవల డెలివరీ, నైపుణ్యం, వ్యవస్థాపకత మరియు వృత్తిలోనూ",
+        "chrf": 21.14,
+        "bleu1": 0.0,
+        "f1": 0.0,
+        "is_degenerate": false
+      },
+      {
+        "idx": 80,
+        "src_lang": "te",
+        "tgt_lang": "ur",
+        "category": "Indic -> Indic",
+        "source": "లిథువేనియా లో భారతీయ మిశన్ నుతెరవడాని కి ఆమోదం తెలిపిన మంత్రిమండలి",
+        "reference": "کابینہ نے لیتھوا نیہ میں انڈین مشن کھولنے کو منظوری دی",
+        "predicted": "کابینہ نے لیتھوانیا میں بھارتی مشن کی منظوری دی",
+        "chrf": 61.74,
+        "bleu1": 53.38,
+        "f1": 60.0,
+        "is_degenerate": false
+      },
+      {
+        "idx": 120,
+        "src_lang": "ur",
+        "tgt_lang": "ml",
+        "category": "Indic -> Indic",
+        "source": "- بھارت میں اختراعی ماحول کو مضبوط بنانے کے لیے تعاون کرنا",
+        "reference": "തന്ത്രപരമായ പങ്കാളിത്ത കരാറില് വിഭാവനം ചെയ്തിട്ടുള്ള സഹകരണ മേഖലകള് ഫോസില് ഇതര ഇന്ധനത്തിന്റെ സ്ഥാപിതശേഷി 2030-ഓടെ 500 ജിഗാ വാട്ട്  എന്ന അഭിലാഷ ലക്ഷ്യം കൈവരിക്കുന്നതിന് ഇന്ത്യയെ പിന്തുണയ്ക്കും",
+        "predicted": "- ഇന്ത്യയിലെ നവീനാശയ പരിസ്ഥിതി ശക്തിപ്പെടുത്തുന്നതിന് സഹകരിക്കുക.",
+        "chrf": 21.54,
+        "bleu1": 0.0,
+        "f1": 0.0,
+        "is_degenerate": false
+      },
+      {
+        "idx": 160,
+        "src_lang": "gu",
+        "tgt_lang": "en",
+        "category": "Indic -> English",
+        "source": "ICAI સભ્યો વિવિધ ખાનગી તેમજ જાહેર કંપનીઓમાં મહત્વપૂર્ણ હોદ્દા સંભાળે છે અને કતારમાં એકાઉન્ટિંગના વ્યવસાયમાં સહકાર તેમજ વિકાસમાં સક્રિયપણે સામેલ છે",
+        "reference": "ICAI members hold key positions in various private and public companies and are actively involved in support and development of the accounting profession in Qatar",
+        "predicted": "ICAI members hold important positions in various private and public companies and are actively involved in the cooperation and development of accounting profession in Qatar.",
+        "chrf": 89.91,
+        "bleu1": 92.0,
+        "f1": 92.0,
+        "is_degenerate": false
+      },
+      {
+        "idx": 200,
+        "src_lang": "ta",
+        "tgt_lang": "kn",
+        "category": "Indic -> Indic",
+        "source": "இத்திட்டத்தை செயல்படுத்தும் முகமையாக பிஎஸ்என்எல்-லும், தொழில்நுட்ப ஆலோசகராக டி சி ஐ எல்-லும் இருப்பார்கள்.",
+        "reference": "ತಗಲುವ ವೆಚ್ಚ:",
+        "predicted": "ಪಿಎಸ್ಎನ್ಎಲ್ ಮತ್ತು ಟಿಸಿಐಎಲ್ ಈ ಯೋಜನೆಯನ್ನು ಜಾರಿಗೊಳಿಸುವ ಸಂಸ್ಥೆಗಳಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸಲಿದ್ದಾರೆ.",
+        "chrf": 9.19,
+        "bleu1": 0.0,
+        "f1": 0.0,
+        "is_degenerate": false
+      }
+    ]
+  },
+  "finetuned_lora": {
+    "model_label": "LoRA Fine-Tuned NLLB-200",
+    "samples_evaluated": 200,
+    "overall_metrics": {
+      "chrf_score": 50.67,
+      "bleu1_score": 34.22,
+      "bleu2_score": 16.16,
+      "token_precision": 40.73,
+      "token_recall": 39.34,
+      "token_f1": 38.05,
+      "token_accuracy": 35.17,
+      "degeneracy_rate_pct": 2.0,
+      "avg_latency_ms": 316.5
+    },
+    "category_summary": {
+      "English -> Indic": {
+        "chrf": 55.06,
+        "bleu1": 38.01,
+        "bleu2": 9.09,
+        "token_f1": 40.78,
+        "samples": 14
+      },
+      "Indic -> Indic": {
+        "chrf": 49.22,
+        "bleu1": 31.67,
+        "bleu2": 14.9,
+        "token_f1": 35.26,
+        "samples": 163
+      },
+      "Indic -> English": {
+        "chrf": 58.24,
+        "bleu1": 49.98,
+        "bleu2": 29.38,
+        "token_f1": 56.14,
+        "samples": 23
+      }
+    },
+    "sample_predictions": [
+      {
+        "idx": 1,
+        "src_lang": "pa",
+        "tgt_lang": "or",
+        "category": "Indic -> Indic",
+        "source": "ਮੰਤਰੀ ਮੰਡਲ ਨੇ ਨਵੀਂ ਅਤੇ ਨਵਿਆਉਣਯੋਗ ਊਰਜਾ ਮੰਤਰਾਲੇ , ਭਾਰਤ ਅਤੇ ਅੰਤਰਰਾਸ਼ਟਰੀ ਨਵਿਆਉਣਯੋਗ ਊਰਜਾ ਏਜੰਸੀ  ਦਰਮਿਆਨ ਰਣਨੀਤਕ ਭਾਈਵਾਲੀ ਸਮਝੌਤੇ ਨੂੰ ਪ੍ਰਵਾਨਗੀ ਦਿੱਤੀ",
+        "reference": "କେନ୍ଦ୍ର ମନ୍ତ୍ରୀମଣ୍ଡଳ ଭାରତର ନବୀନ ଏବଂ ନବୀକରଣୀୟ ଶକ୍ତି ମନ୍ତ୍ରଣାଳୟ  ଏବଂ ଆନ୍ତର୍ଜାତୀୟ ଅକ୍ଷୟ ଶକ୍ତି ଏଜେନ୍ସି  ମଧ୍ୟରେ କୌଶଳଗତ ସହଭାଗୀତା ରାଜିନାମାକୁ ମଞ୍ଜୁରୀ ପ୍ରଦାନ କରିଛନ୍ତି",
+        "predicted": "ନୂଆଦିଲ୍ଲୀ, ୨୮।୦୯ଃ ନବୀକରଣଯୋଗ୍ୟ ଶକ୍ତି ମନ୍ତ୍ରଣାଳୟ, ଭାରତ ଏବଂ ଆନ୍ତର୍ଜାତିକ ଅକ୍ଷୟ ଶକ୍ତି ଏଜେନ୍ସି ମଧ୍ୟରେ ରଣନୈତିକ ଭାଗିଦାରୀ ବୁଝାମଣାକୁ କ୍ୟାବିନେଟ ମଞ୍ଜୁରି",
+        "chrf": 53.06,
+        "bleu1": 34.52,
+        "f1": 37.84,
+        "is_degenerate": false
+      },
+      {
+        "idx": 2,
+        "src_lang": "ur",
+        "tgt_lang": "pa",
+        "category": "Indic -> Indic",
+        "source": "بڑے اثرات بشمول روزگار پیدا کرنے کا امکان اور مستفیدین کی تعداد:",
+        "reference": "ਇਸ ਪ੍ਰੋਗਰਾਮ ਦਾ ਉਦੇਸ਼ ਬਜ਼ਾਰ ਅਤੇ ਕਰਜ਼ੇ ਤੱਕ ਪਹੁੰਚ ਵਿੱਚ ਸੁਧਾਰ ਕਰਨਾ, ਕੇਂਦਰ ਅਤੇ ਰਾਜ ਵਿੱਚ ਸੰਸਥਾਵਾਂ ਅਤੇ ਸ਼ਾਸਨ ਨੂੰ ਮਜ਼ਬੂਤ ਕਰਨਾ, ਕੇਂਦਰ-ਰਾਜ ਸਬੰਧਾਂ ਅਤੇ ਭਾਈਵਾਲੀ ਵਿੱਚ ਸੁਧਾਰ ਕਰਨਾ, ਦੇਰੀ ਨਾਲ ਭੁਗਤਾਨ ਦੇ ਮੁੱਦਿਆਂ ਨੂੰ ਹੱਲ ਕਰਨਾ ਅਤੇ ਐੱਮਐੱਸਐੱਮਈ’ਜ਼ ਨੂੰ ਗ੍ਰੀਨ ਬਣਾਉਣਾ ਹੈ।",
+        "predicted": "ਰੁਜ਼ਗਾਰ ਪੈਦਾ ਕਰਨ ਦੀ ਸੰਭਾਵਨਾ ਅਤੇ ਲਾਭਪਾਤਰੀਆਂ ਦੀ ਗਿਣਤੀ ਸਮੇਤ ਵੱਡੇ ਪ੍ਰਭਾਵਃ",
+        "chrf": 11.54,
+        "bleu1": 0.53,
+        "f1": 3.51,
+        "is_degenerate": false
+      },
+      {
+        "idx": 3,
+        "src_lang": "ur",
+        "tgt_lang": "ta",
+        "category": "Indic -> Indic",
+        "source": "مرکزی کابینہ نے انسٹی ٹیوٹ آف کوسٹ اکاؤنٹینٹ آف انڈیا  اور ایسوسی ایشن آف چارٹرڈ سرٹیفائیڈ اکاؤنٹینٹ ، برطانیہ کے درمیان مفاہمت نامہ کو منظوری دی",
+        "reference": "ஐசிஓஏஐ, ஏசிசிஏ ஆகியவற்றுக்கிடையேயான புரிந்துணர்வு ஒப்பந்தத்திற்கு அமைச்சரவை ஒப்புதல்",
+        "predicted": "இந்திய கடலோரக் கணக்காளர் நிறுவனம் மற்றும் இங்கிலாந்து சார்ட்டட் சான்றிதழ் கணக்காளர்கள் சங்கம் இடையே புரிந்துணர்வு ஒப்பந்தத்திற்கு மத்திய அமைச்சரவை ஒப்புதல்",
+        "chrf": 59.48,
+        "bleu1": 25.0,
+        "f1": 34.78,
+        "is_degenerate": false
+      },
+      {
+        "idx": 4,
+        "src_lang": "ur",
+        "tgt_lang": "pa",
+        "category": "Indic -> Indic",
+        "source": "کابینہ",
+        "reference": "ਮੰਤਰੀ ਮੰਡਲ",
+        "predicted": "ਮੰਤਰੀ ਮੰਡਲ",
+        "chrf": 100.0,
+        "bleu1": 100.0,
+        "f1": 100.0,
+        "is_degenerate": false
+      },
+      {
+        "idx": 5,
+        "src_lang": "mr",
+        "tgt_lang": "gu",
+        "category": "Indic -> Indic",
+        "source": "मंत्रिमंडळ",
+        "reference": "મંત્રીમંડળ",
+        "predicted": "મંત્રીમંડળ",
+        "chrf": 100.0,
+        "bleu1": 100.0,
+        "f1": 100.0,
+        "is_degenerate": false
+      },
+      {
+        "idx": 6,
+        "src_lang": "ml",
+        "tgt_lang": "en",
+        "category": "Indic -> English",
+        "source": "2022-ൽ ലിത്വാനിയയിൽ ഒരു പുതിയ ഇന്ത്യൻ കാര്യാലയം തുറക്കുന്നതിന് പ്രധാനമന്ത്രി ശ്രീ നരേന്ദ്ര മോദിയുടെ അധ്യക്ഷതയിൽ ചേർന്ന കേന്ദ്രമന്ത്രിസഭ അംഗീകാരം നൽകി.",
+        "reference": "The Union Cabinet chaired by the Prime Minister Shri Narendra Modi has accorded approval to the opening of a new Indian Mission in Lithuania in 2022.",
+        "predicted": "The Union Cabinet chaired by the Prime Minister Shri Narendra Modi has approved opening a new Indian Office in Lithuania in 2022.",
+        "chrf": 79.58,
+        "bleu1": 75.8,
+        "f1": 83.33,
+        "is_degenerate": false
+      },
+      {
+        "idx": 7,
+        "src_lang": "kn",
+        "tgt_lang": "mr",
+        "category": "Indic -> Indic",
+        "source": "ತಗಲುವ ವೆಚ್ಚ:",
+        "reference": "या प्रकल्पाची अंदाजे किंमत 1072 कोटी रुपये असून त्यात तिचा 5 वर्षांपर्यंतचा परीचालन खर्च अंतर्भूत आहे. या प्रकल्पाला युनिव्हर्सल सर्विस आँब्लिगेशन फंडामधून निधी दिला जाणार आहे.",
+        "predicted": "जगण्याची किंमत:",
+        "chrf": 5.7,
+        "bleu1": 0.0,
+        "f1": 7.14,
+        "is_degenerate": false
+      },
+      {
+        "idx": 8,
+        "src_lang": "bn",
+        "tgt_lang": "kn",
+        "category": "Indic -> Indic",
+        "source": "কেন্দ্রীয় মন্ত্রিসভার ভারত ও সুরিনামের মধ্যে ওষুধ সংক্রান্ত স্বাক্ষরিত চুক্তিটি অনুমোদন",
+        "reference": "ಔಷಧ ನಿಯಂತ್ರಣ ಕ್ಷೇತ್ರದಲ್ಲಿ ಭಾರತ ಮತ್ತು ಸುರಿನಾಮೆ ನಡುವಿನ ಸಹಿ ಒಪ್ಪಂದಕ್ಕೆ ಕೇಂದ್ರ ಸಂಪುಟ ಅನುಮೋದನೆ",
+        "predicted": "ಭಾರತ ಮತ್ತು ಸುರಿನಾಂ ನಡುವೆ ಔಷಧ ಒಪ್ಪಂದಕ್ಕೆ ಕೇಂದ್ರ ಸಚಿವ ಸಂಪುಟದ ಅನುಮೋದನೆ",
+        "chrf": 60.53,
+        "bleu1": 49.12,
+        "f1": 54.55,
+        "is_degenerate": false
+      },
+      {
+        "idx": 9,
+        "src_lang": "bn",
+        "tgt_lang": "mr",
+        "category": "Indic -> Indic",
+        "source": "প্রধানমন্ত্রী শ্রী নরেন্দ্র মোদীর পৌরোহিত্যে কেন্দ্রীয় মন্ত্রিসভা আন্তঃরাজ্য নদী জল বিবাদ  আইন, ১৯৫৬-র ৫ ধারার আওতায় কৃষ্ণা নদীর জলবন্টন নিয়ে তেলেঙ্গানা ও অন্ধ্রপ্রদেশের বিবাদের নিষ্পত্তিতে গঠিত কৃষ্ণা জল বিরোধ ট্রাইব্যুনাল-II –এর অতিরিক্ত শর্তাবলী অনুমোদন করেছে",
+        "reference": "पंतप्रधान नरेंद्र मोदी यांच्या अध्यक्षतेखाली झालेल्या केंद्रीय मंत्रिमंडळाच्या बैठकीत मंत्रिमंडळाने सध्या अस्तित्वात असलेल्या आंतरराज्य नदी पाणी तंटा  कायदा, 1956 च्या कलम 5 अंतर्गत कृष्णा पाणी तंटा लवाद- II च्या पुढील संदर्भ अटीना मंजुरी दिली आहे",
+        "predicted": "नवी दिल्ली, 16 ऑगस्ट 2021",
+        "chrf": 3.75,
+        "bleu1": 0.0,
+        "f1": 0.0,
+        "is_degenerate": false
+      },
+      {
+        "idx": 10,
+        "src_lang": "mr",
+        "tgt_lang": "ml",
+        "category": "Indic -> Indic",
+        "source": "महामंडळात 59 स्थायी कर्मचारी आणि 6 व्यवस्थापन प्रशिक्षणार्थी कार्यरत आहेत",
+        "reference": "59 സ്ഥിരം ജീവനക്കാരും 6 മാനേജ്മെന്റ് ട്രെയിനികളും നിലവിൽ കോർപ്പറേഷനിൽ സേവനമനുഷ്ഠിക്കുന്നു",
+        "predicted": "59 സ്ഥിരം ജീവനക്കാരും 6 മാനേജ്മെന്റ് ട്രെയിനിംഗുകളും കോർപ്പറേഷനിൽ ജോലി ചെയ്യുന്നു",
+        "chrf": 71.79,
+        "bleu1": 66.67,
+        "f1": 66.67,
+        "is_degenerate": false
+      },
+      {
+        "idx": 11,
+        "src_lang": "ml",
+        "tgt_lang": "gu",
+        "category": "Indic -> Indic",
+        "source": "നിർദ്ദിഷ്ട കാലാവധി നീട്ടലും അതിന്റെ റഫറൻസ് നിബന്ധനകളിലെ കൂട്ടിച്ചേർക്കലുകളും ബന്ധപ്പെട്ടവരുമായി കൂടിയാലോചിച്ച ശേഷം ഒബിസി വിഭാഗങ്ങളുടെ ഉപ വർഗ്ഗീകരണം സംബന്ധിച്ച സമഗ്ര റിപ്പോർട്ട് സമർപ്പിക്കാൻ “കമ്മീഷനെ” പ്രാപ്തമാക്കും.",
+        "reference": "“આયોગ”ની મુદત 31.07.2021થી 31.01.2022 6 મહિના સુધી વધારવાનો આદેશ રાષ્ટ્રપતિની મંજૂરી સાથે સૂચિત કરવામાં આવશે.",
+        "predicted": "આ યોજનાઓ ઓબીસીના પેટા વર્ગીકરણ પર વિસ્તૃત રિપોર્ટ રજૂ કરવા માટે સક્ષમ બનાવશે.",
+        "chrf": 21.2,
+        "bleu1": 0.0,
+        "f1": 0.0,
+        "is_degenerate": false
+      },
+      {
+        "idx": 12,
+        "src_lang": "pa",
+        "tgt_lang": "gu",
+        "category": "Indic -> Indic",
+        "source": "ਇਸ ਸਹਿਯੋਗ ਪੱਤਰ ਦੇ ਤਹਿਤ ਇੱਕ ਸੰਯੁਕਤ ਵਰਕਿੰਗ ਗਰੁੱਪ ਦਾ ਗਠਨ ਕੀਤਾ ਜਾਵੇਗਾ ਜੋ ਇਸ ਸਹਿਯੋਗ ਪੱਤਰ ਦਾ ਅਨੁਪਾਲਨ ਸੁਨਿਸ਼ਚਿਤ ਕਰੇਗਾ।",
+        "reference": "આ સમજૂતી કરાર અંતર્ગત, આ એમઓસીના અમલીકરણને અનુસરવા માટે સંયુક્ત કાર્યકારી જૂથની રચના કરવામાં આવશે.",
+        "predicted": "આ સહયોગ પત્ર હેઠળ સંયુક્ત કાર્યકારી જૂથની રચના કરવામાં આવશે જે આ સહયોગ પત્રનું પાલન સુનિશ્ચિત કરશે.",
+        "chrf": 50.88,
+        "bleu1": 47.06,
+        "f1": 50.0,
+        "is_degenerate": false
+      },
+      {
+        "idx": 13,
+        "src_lang": "mr",
+        "tgt_lang": "gu",
+        "category": "Indic -> Indic",
+        "source": "निर्णयाचा परिणाम :",
+        "reference": "શિક્ષણમાં કન્સલ્ટન્સી, ટેકનોલોજીની નિકાસ વગેરે ક્ષેત્રે CDCના અનુભવી સ્ટાફ દ્વારા CSIRને વધુ ઉન્નત બનાવવામાં આવશે",
+        "predicted": "આ નિર્ણયની અસરઃ",
+        "chrf": 3.98,
+        "bleu1": 0.0,
+        "f1": 0.0,
+        "is_degenerate": false
+      },
+      {
+        "idx": 14,
+        "src_lang": "mr",
+        "tgt_lang": "en",
+        "category": "Indic -> English",
+        "source": "- रासायन व्यवस्थापन;",
+        "reference": "• Climate Change;",
+        "predicted": "- Chemical management;",
+        "chrf": 26.98,
+        "bleu1": 0.0,
+        "f1": 0.0,
+        "is_degenerate": false
+      },
+      {
+        "idx": 15,
+        "src_lang": "ta",
+        "tgt_lang": "ur",
+        "category": "Indic -> Indic",
+        "source": "மத்திய அமைச்சரவை",
+        "reference": "کابینہ",
+        "predicted": "کابینہ",
+        "chrf": 100.0,
+        "bleu1": 100.0,
+        "f1": 100.0,
+        "is_degenerate": false
+      },
+      {
+        "idx": 40,
+        "src_lang": "pa",
+        "tgt_lang": "te",
+        "category": "Indic -> Indic",
+        "source": "ਖੇਤਰ ਵਿੱਚ ਲੋੜੀਂਦੇ ਨਿਵੇਸ਼ਾਂ ਨੂੰ ਵਰਤਣ ਤੋਂ ਇਲਾਵਾ ਸਰਵਿਸ ਡਿਲਿਵਰੀ, ਮਹਾਰਤ, ਉੱਦਮ ਅਤੇ ਪੇਸ਼ੇਵਰਤਾ ਵਿੱਚ",
+        "reference": "ఈ పిపిపి ప్రయోగాలు ప్రపంచ శ్రేణి విమానాశ్రయాల ను తీర్చిదిద్దడం లో సాయపడ్డాయి",
+        "predicted": "రంగంలో అవసరమైన పెట్టుబడులను వినియోగించుకోవడంతో పాటు సేవల పంపిణీ, నైపుణ్యం, పారిశ్రామికవేత్తలు మరియు వృత్తిపరమైనతలోనూ",
+        "chrf": 24.5,
+        "bleu1": 0.0,
+        "f1": 0.0,
+        "is_degenerate": false
+      },
+      {
+        "idx": 80,
+        "src_lang": "te",
+        "tgt_lang": "ur",
+        "category": "Indic -> Indic",
+        "source": "లిథువేనియా లో భారతీయ మిశన్ నుతెరవడాని కి ఆమోదం తెలిపిన మంత్రిమండలి",
+        "reference": "کابینہ نے لیتھوا نیہ میں انڈین مشن کھولنے کو منظوری دی",
+        "predicted": "کابینہ نے لیتھوانیا میں بھارتی مشن کی منظوری دی",
+        "chrf": 61.74,
+        "bleu1": 53.38,
+        "f1": 60.0,
+        "is_degenerate": false
+      },
+      {
+        "idx": 120,
+        "src_lang": "ur",
+        "tgt_lang": "ml",
+        "category": "Indic -> Indic",
+        "source": "- بھارت میں اختراعی ماحول کو مضبوط بنانے کے لیے تعاون کرنا",
+        "reference": "തന്ത്രപരമായ പങ്കാളിത്ത കരാറില് വിഭാവനം ചെയ്തിട്ടുള്ള സഹകരണ മേഖലകള് ഫോസില് ഇതര ഇന്ധനത്തിന്റെ സ്ഥാപിതശേഷി 2030-ഓടെ 500 ജിഗാ വാട്ട്  എന്ന അഭിലാഷ ലക്ഷ്യം കൈവരിക്കുന്നതിന് ഇന്ത്യയെ പിന്തുണയ്ക്കും",
+        "predicted": "ഇന്ത്യയിലെ നവീനാശയ അന്തരീക്ഷം ശക്തിപ്പെടുത്തുന്നതിന് സഹകരിക്കുക",
+        "chrf": 21.4,
+        "bleu1": 0.0,
+        "f1": 0.0,
+        "is_degenerate": false
+      },
+      {
+        "idx": 160,
+        "src_lang": "gu",
+        "tgt_lang": "en",
+        "category": "Indic -> English",
+        "source": "ICAI સભ્યો વિવિધ ખાનગી તેમજ જાહેર કંપનીઓમાં મહત્વપૂર્ણ હોદ્દા સંભાળે છે અને કતારમાં એકાઉન્ટિંગના વ્યવસાયમાં સહકાર તેમજ વિકાસમાં સક્રિયપણે સામેલ છે",
+        "reference": "ICAI members hold key positions in various private and public companies and are actively involved in support and development of the accounting profession in Qatar",
+        "predicted": "ICAI members hold important positions in various private and public companies and are actively involved in the cooperation and development of accounting profession in Qatar",
+        "chrf": 90.04,
+        "bleu1": 92.0,
+        "f1": 92.0,
+        "is_degenerate": false
+      },
+      {
+        "idx": 200,
+        "src_lang": "ta",
+        "tgt_lang": "kn",
+        "category": "Indic -> Indic",
+        "source": "இத்திட்டத்தை செயல்படுத்தும் முகமையாக பிஎஸ்என்எல்-லும், தொழில்நுட்ப ஆலோசகராக டி சி ஐ எல்-லும் இருப்பார்கள்.",
+        "reference": "ತಗಲುವ ವೆಚ್ಚ:",
+        "predicted": "ಪಿಎಸ್ಎನ್ಎಲ್ ಮತ್ತು ಟಿಸಿಐಎಲ್ ಈ ಯೋಜನೆಯನ್ನು ಅನುಷ್ಠಾನಗೊಳಿಸುವ ಏಜೆಂಟರಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸಲಿದ್ದಾರೆ.",
+        "chrf": 9.04,
+        "bleu1": 0.0,
+        "f1": 0.0,
+        "is_degenerate": false
+      }
+    ]
+  },
+  "deltas": {
+    "chrf_score": {
+      "base": 45.76,
+      "finetuned": 50.67,
+      "delta": 4.91,
+      "pct_change": 10.73
+    },
+    "bleu1_score": {
+      "base": 28.65,
+      "finetuned": 34.22,
+      "delta": 5.57,
+      "pct_change": 19.44
+    },
+    "bleu2_score": {
+      "base": 15.04,
+      "finetuned": 16.16,
+      "delta": 1.12,
+      "pct_change": 7.45
+    },
+    "token_f1": {
+      "base": 32.63,
+      "finetuned": 38.05,
+      "delta": 5.42,
+      "pct_change": 16.61
+    },
+    "token_precision": {
+      "base": 34.65,
+      "finetuned": 40.73,
+      "delta": 6.08
+    },
+    "token_recall": {
+      "base": 35.0,
+      "finetuned": 39.34,
+      "delta": 4.34
+    },
+    "token_accuracy": {
+      "base": 29.54,
+      "finetuned": 35.17,
+      "delta": 5.63
+    },
+    "degeneracy_rate_pct": {
+      "base": 2.0,
+      "finetuned": 2.0,
+      "delta": 0.0
+    },
+    "avg_latency_ms": {
+      "base": 267.6,
+      "finetuned": 316.5,
+      "delta": 48.9
+    }
+  }
+}

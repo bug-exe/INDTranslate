@@ -1,0 +1,8 @@
+=== Disaster Preparedness: Early Warning Systems and Resilient Communities | आपदा प्रबंधन: पूर्व चेतावनी प्रणाली एवं सशक्त समुदाय ===
+
+[EN] Early weather warnings powered by Doppler radar and satellite networks provide coastal villages critical hours to evacuate safely.
+[HI] डॉपलर रडार और उपग्रह नेटवर्क द्वारा संचालित प्रारंभिक मौसम चेतावनियां तटीय गांवों को सुरक्षित रूप से निकालने के लिए महत्वपूर्ण समय प्रदान करती हैं।
+
+[EN] Equipping local rescue teams with satellite communications and emergency medical supplies saves thousands of lives during extreme cyclones.
+[HI] स्थानीय बचाव दलों को उपग्रह संचार और आपातकालीन चिकित्सा आपूर्ति से लैस करने से भीषण चक्रवातों के दौरान हजारों लोगों की जान बचती है।
+

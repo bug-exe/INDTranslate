@@ -1,0 +1,452 @@
+[
+  {
+    "pair_id": 296209,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "en",
+    "target_lang": "hi",
+    "source_text": "Prime Minister launches M-Yoga App on 7th International Day of Yoga 2021",
+    "target_text": "प्रधानमंत्री ने 7वें अंतर्राष्ट्रीय योग दिवस 2021 पर एम-योग ऐप लॉन्च किया",
+    "split": "val"
+  },
+  {
+    "pair_id": 296210,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "en",
+    "target_lang": "bn",
+    "source_text": "Prime Minister launches M-Yoga App on 7th International Day of Yoga 2021",
+    "target_text": "সপ্তম আন্তর্জাতিক যোগ দিবস ২০২১ উপলক্ষে এম-যোগ অ্যাপ-এর সূচনা প্রধানমন্ত্রীর",
+    "split": "val"
+  },
+  {
+    "pair_id": 296211,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "en",
+    "target_lang": "gu",
+    "source_text": "Prime Minister launches M-Yoga App on 7th International Day of Yoga 2021",
+    "target_text": "7મા આંતરરાષ્ટ્રીય યોગ દિવસ 2021એ પ્રધાનમંત્રીએ એમ-યોગ એપનો શુભારંભ કર્યો",
+    "split": "val"
+  },
+  {
+    "pair_id": 296212,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "en",
+    "target_lang": "kn",
+    "source_text": "Prime Minister launches M-Yoga App on 7th International Day of Yoga 2021",
+    "target_text": "7ನೇ ಅಂತರರಾಷ್ಟ್ರೀಯ ದಿನದಂದು ಪ್ರಧಾನಿ ಎಂ-ಯೋಗ ಆ್ಯಪ್ ನ ಲೋಕಾರ್ಪಣೆ ನೆರವೇರಿಸಿದರು",
+    "split": "val"
+  },
+  {
+    "pair_id": 296213,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "en",
+    "target_lang": "ml",
+    "source_text": "Prime Minister launches M-Yoga App on 7th International Day of Yoga 2021",
+    "target_text": "2021 ലെ ഏഴാമത് അന്താരാഷ്ട്ര യോഗ ദിനത്തിൽ പ്രധാനമന്ത്രി എം-യോഗ ആപ്പ് പുറത്തിറക്കി",
+    "split": "val"
+  },
+  {
+    "pair_id": 296214,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "en",
+    "target_lang": "mr",
+    "source_text": "Prime Minister launches M-Yoga App on 7th International Day of Yoga 2021",
+    "target_text": "सातव्या आंतरराष्ट्रीय योगदिनानिमित्त पंतप्रधानांच्या हस्ते M-Yoga अॅपचा शुभारंभ",
+    "split": "val"
+  },
+  {
+    "pair_id": 296215,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "en",
+    "target_lang": "or",
+    "source_text": "Prime Minister launches M-Yoga App on 7th International Day of Yoga 2021",
+    "target_text": "ସପ୍ତମ ଆନ୍ତର୍ଜାତିକ ଯୋଗଦିବସ ୨୦୨୧ ଅବସରରେ ପ୍ରଧାନମନ୍ତ୍ରୀଙ୍କ ଦ୍ୱାରା ଏମ୍-ଯୋଗ ଆପ୍ର ଶୁଭାରମ୍ଭ",
+    "split": "val"
+  },
+  {
+    "pair_id": 296216,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "en",
+    "target_lang": "pa",
+    "source_text": "Prime Minister launches M-Yoga App on 7th International Day of Yoga 2021",
+    "target_text": "ਪ੍ਰਧਾਨ ਮੰਤਰੀ ਨੇ 7ਵੇਂ ‘ਅੰਤਰਰਾਸ਼ਟਰੀ ਯੋਗ ਦਿਵਸ 2021’ ਦੇ ਅਵਸਰ ‘ਤੇ ਐੱਮ-ਯੋਗ  ਐਪ ਲਾਂਚ ਕੀਤੀ",
+    "split": "val"
+  },
+  {
+    "pair_id": 296217,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "en",
+    "target_lang": "ta",
+    "source_text": "Prime Minister launches M-Yoga App on 7th International Day of Yoga 2021",
+    "target_text": "ஏழாவது சர்வதேச யோகா தினம் 2021 அன்று எம்-யோகா செயலியை பிரதமர் அறிமுகப்படுத்தினார்",
+    "split": "val"
+  },
+  {
+    "pair_id": 296218,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "en",
+    "target_lang": "te",
+    "source_text": "Prime Minister launches M-Yoga App on 7th International Day of Yoga 2021",
+    "target_text": "7వ అంతర్జాతీయ యోగా-2021 రోజున \"ఎం-యోగా\" యాప్ ను ప్రారంభించిన - ప్రధానమంత్రి",
+    "split": "val"
+  },
+  {
+    "pair_id": 296219,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "en",
+    "target_lang": "ur",
+    "source_text": "Prime Minister launches M-Yoga App on 7th International Day of Yoga 2021",
+    "target_text": "وزیر اعظم نے 7ویں بین الاقوامی یوم یوگ 2021 کے موقع پر ایم- یوگا ایپ کا آغاز کیا",
+    "split": "val"
+  },
+  {
+    "pair_id": 296220,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "hi",
+    "target_lang": "en",
+    "source_text": "प्रधानमंत्री ने 7वें अंतर्राष्ट्रीय योग दिवस 2021 पर एम-योग ऐप लॉन्च किया",
+    "target_text": "Prime Minister launches M-Yoga App on 7th International Day of Yoga 2021",
+    "split": "val"
+  },
+  {
+    "pair_id": 296221,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "hi",
+    "target_lang": "bn",
+    "source_text": "प्रधानमंत्री ने 7वें अंतर्राष्ट्रीय योग दिवस 2021 पर एम-योग ऐप लॉन्च किया",
+    "target_text": "সপ্তম আন্তর্জাতিক যোগ দিবস ২০২১ উপলক্ষে এম-যোগ অ্যাপ-এর সূচনা প্রধানমন্ত্রীর",
+    "split": "val"
+  },
+  {
+    "pair_id": 296222,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "hi",
+    "target_lang": "gu",
+    "source_text": "प्रधानमंत्री ने 7वें अंतर्राष्ट्रीय योग दिवस 2021 पर एम-योग ऐप लॉन्च किया",
+    "target_text": "7મા આંતરરાષ્ટ્રીય યોગ દિવસ 2021એ પ્રધાનમંત્રીએ એમ-યોગ એપનો શુભારંભ કર્યો",
+    "split": "val"
+  },
+  {
+    "pair_id": 296223,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "hi",
+    "target_lang": "kn",
+    "source_text": "प्रधानमंत्री ने 7वें अंतर्राष्ट्रीय योग दिवस 2021 पर एम-योग ऐप लॉन्च किया",
+    "target_text": "7ನೇ ಅಂತರರಾಷ್ಟ್ರೀಯ ದಿನದಂದು ಪ್ರಧಾನಿ ಎಂ-ಯೋಗ ಆ್ಯಪ್ ನ ಲೋಕಾರ್ಪಣೆ ನೆರವೇರಿಸಿದರು",
+    "split": "val"
+  },
+  {
+    "pair_id": 296224,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "hi",
+    "target_lang": "ml",
+    "source_text": "प्रधानमंत्री ने 7वें अंतर्राष्ट्रीय योग दिवस 2021 पर एम-योग ऐप लॉन्च किया",
+    "target_text": "2021 ലെ ഏഴാമത് അന്താരാഷ്ട്ര യോഗ ദിനത്തിൽ പ്രധാനമന്ത്രി എം-യോഗ ആപ്പ് പുറത്തിറക്കി",
+    "split": "val"
+  },
+  {
+    "pair_id": 296225,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "hi",
+    "target_lang": "mr",
+    "source_text": "प्रधानमंत्री ने 7वें अंतर्राष्ट्रीय योग दिवस 2021 पर एम-योग ऐप लॉन्च किया",
+    "target_text": "सातव्या आंतरराष्ट्रीय योगदिनानिमित्त पंतप्रधानांच्या हस्ते M-Yoga अॅपचा शुभारंभ",
+    "split": "val"
+  },
+  {
+    "pair_id": 296226,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "hi",
+    "target_lang": "or",
+    "source_text": "प्रधानमंत्री ने 7वें अंतर्राष्ट्रीय योग दिवस 2021 पर एम-योग ऐप लॉन्च किया",
+    "target_text": "ସପ୍ତମ ଆନ୍ତର୍ଜାତିକ ଯୋଗଦିବସ ୨୦୨୧ ଅବସରରେ ପ୍ରଧାନମନ୍ତ୍ରୀଙ୍କ ଦ୍ୱାରା ଏମ୍-ଯୋଗ ଆପ୍ର ଶୁଭାରମ୍ଭ",
+    "split": "val"
+  },
+  {
+    "pair_id": 296227,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "hi",
+    "target_lang": "pa",
+    "source_text": "प्रधानमंत्री ने 7वें अंतर्राष्ट्रीय योग दिवस 2021 पर एम-योग ऐप लॉन्च किया",
+    "target_text": "ਪ੍ਰਧਾਨ ਮੰਤਰੀ ਨੇ 7ਵੇਂ ‘ਅੰਤਰਰਾਸ਼ਟਰੀ ਯੋਗ ਦਿਵਸ 2021’ ਦੇ ਅਵਸਰ ‘ਤੇ ਐੱਮ-ਯੋਗ  ਐਪ ਲਾਂਚ ਕੀਤੀ",
+    "split": "val"
+  },
+  {
+    "pair_id": 296228,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "hi",
+    "target_lang": "ta",
+    "source_text": "प्रधानमंत्री ने 7वें अंतर्राष्ट्रीय योग दिवस 2021 पर एम-योग ऐप लॉन्च किया",
+    "target_text": "ஏழாவது சர்வதேச யோகா தினம் 2021 அன்று எம்-யோகா செயலியை பிரதமர் அறிமுகப்படுத்தினார்",
+    "split": "val"
+  },
+  {
+    "pair_id": 296229,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "hi",
+    "target_lang": "te",
+    "source_text": "प्रधानमंत्री ने 7वें अंतर्राष्ट्रीय योग दिवस 2021 पर एम-योग ऐप लॉन्च किया",
+    "target_text": "7వ అంతర్జాతీయ యోగా-2021 రోజున \"ఎం-యోగా\" యాప్ ను ప్రారంభించిన - ప్రధానమంత్రి",
+    "split": "val"
+  },
+  {
+    "pair_id": 296230,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "hi",
+    "target_lang": "ur",
+    "source_text": "प्रधानमंत्री ने 7वें अंतर्राष्ट्रीय योग दिवस 2021 पर एम-योग ऐप लॉन्च किया",
+    "target_text": "وزیر اعظم نے 7ویں بین الاقوامی یوم یوگ 2021 کے موقع پر ایم- یوگا ایپ کا آغاز کیا",
+    "split": "val"
+  },
+  {
+    "pair_id": 296231,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "bn",
+    "target_lang": "en",
+    "source_text": "সপ্তম আন্তর্জাতিক যোগ দিবস ২০২১ উপলক্ষে এম-যোগ অ্যাপ-এর সূচনা প্রধানমন্ত্রীর",
+    "target_text": "Prime Minister launches M-Yoga App on 7th International Day of Yoga 2021",
+    "split": "val"
+  },
+  {
+    "pair_id": 296232,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "bn",
+    "target_lang": "hi",
+    "source_text": "সপ্তম আন্তর্জাতিক যোগ দিবস ২০২১ উপলক্ষে এম-যোগ অ্যাপ-এর সূচনা প্রধানমন্ত্রীর",
+    "target_text": "प्रधानमंत्री ने 7वें अंतर्राष्ट्रीय योग दिवस 2021 पर एम-योग ऐप लॉन्च किया",
+    "split": "val"
+  },
+  {
+    "pair_id": 296233,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "bn",
+    "target_lang": "gu",
+    "source_text": "সপ্তম আন্তর্জাতিক যোগ দিবস ২০২১ উপলক্ষে এম-যোগ অ্যাপ-এর সূচনা প্রধানমন্ত্রীর",
+    "target_text": "7મા આંતરરાષ્ટ્રીય યોગ દિવસ 2021એ પ્રધાનમંત્રીએ એમ-યોગ એપનો શુભારંભ કર્યો",
+    "split": "val"
+  },
+  {
+    "pair_id": 296234,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "bn",
+    "target_lang": "kn",
+    "source_text": "সপ্তম আন্তর্জাতিক যোগ দিবস ২০২১ উপলক্ষে এম-যোগ অ্যাপ-এর সূচনা প্রধানমন্ত্রীর",
+    "target_text": "7ನೇ ಅಂತರರಾಷ್ಟ್ರೀಯ ದಿನದಂದು ಪ್ರಧಾನಿ ಎಂ-ಯೋಗ ಆ್ಯಪ್ ನ ಲೋಕಾರ್ಪಣೆ ನೆರವೇರಿಸಿದರು",
+    "split": "val"
+  },
+  {
+    "pair_id": 296235,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "bn",
+    "target_lang": "ml",
+    "source_text": "সপ্তম আন্তর্জাতিক যোগ দিবস ২০২১ উপলক্ষে এম-যোগ অ্যাপ-এর সূচনা প্রধানমন্ত্রীর",
+    "target_text": "2021 ലെ ഏഴാമത് അന്താരാഷ്ട്ര യോഗ ദിനത്തിൽ പ്രധാനമന്ത്രി എം-യോഗ ആപ്പ് പുറത്തിറക്കി",
+    "split": "val"
+  },
+  {
+    "pair_id": 296236,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "bn",
+    "target_lang": "mr",
+    "source_text": "সপ্তম আন্তর্জাতিক যোগ দিবস ২০২১ উপলক্ষে এম-যোগ অ্যাপ-এর সূচনা প্রধানমন্ত্রীর",
+    "target_text": "सातव्या आंतरराष्ट्रीय योगदिनानिमित्त पंतप्रधानांच्या हस्ते M-Yoga अॅपचा शुभारंभ",
+    "split": "val"
+  },
+  {
+    "pair_id": 296237,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "bn",
+    "target_lang": "or",
+    "source_text": "সপ্তম আন্তর্জাতিক যোগ দিবস ২০২১ উপলক্ষে এম-যোগ অ্যাপ-এর সূচনা প্রধানমন্ত্রীর",
+    "target_text": "ସପ୍ତମ ଆନ୍ତର୍ଜାତିକ ଯୋଗଦିବସ ୨୦୨୧ ଅବସରରେ ପ୍ରଧାନମନ୍ତ୍ରୀଙ୍କ ଦ୍ୱାରା ଏମ୍-ଯୋଗ ଆପ୍ର ଶୁଭାରମ୍ଭ",
+    "split": "val"
+  },
+  {
+    "pair_id": 296238,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "bn",
+    "target_lang": "pa",
+    "source_text": "সপ্তম আন্তর্জাতিক যোগ দিবস ২০২১ উপলক্ষে এম-যোগ অ্যাপ-এর সূচনা প্রধানমন্ত্রীর",
+    "target_text": "ਪ੍ਰਧਾਨ ਮੰਤਰੀ ਨੇ 7ਵੇਂ ‘ਅੰਤਰਰਾਸ਼ਟਰੀ ਯੋਗ ਦਿਵਸ 2021’ ਦੇ ਅਵਸਰ ‘ਤੇ ਐੱਮ-ਯੋਗ  ਐਪ ਲਾਂਚ ਕੀਤੀ",
+    "split": "val"
+  },
+  {
+    "pair_id": 296239,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "bn",
+    "target_lang": "ta",
+    "source_text": "সপ্তম আন্তর্জাতিক যোগ দিবস ২০২১ উপলক্ষে এম-যোগ অ্যাপ-এর সূচনা প্রধানমন্ত্রীর",
+    "target_text": "ஏழாவது சர்வதேச யோகா தினம் 2021 அன்று எம்-யோகா செயலியை பிரதமர் அறிமுகப்படுத்தினார்",
+    "split": "val"
+  },
+  {
+    "pair_id": 296240,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "bn",
+    "target_lang": "te",
+    "source_text": "সপ্তম আন্তর্জাতিক যোগ দিবস ২০২১ উপলক্ষে এম-যোগ অ্যাপ-এর সূচনা প্রধানমন্ত্রীর",
+    "target_text": "7వ అంతర్జాతీయ యోగా-2021 రోజున \"ఎం-యోగా\" యాప్ ను ప్రారంభించిన - ప్రధానమంత్రి",
+    "split": "val"
+  },
+  {
+    "pair_id": 296241,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "bn",
+    "target_lang": "ur",
+    "source_text": "সপ্তম আন্তর্জাতিক যোগ দিবস ২০২১ উপলক্ষে এম-যোগ অ্যাপ-এর সূচনা প্রধানমন্ত্রীর",
+    "target_text": "وزیر اعظم نے 7ویں بین الاقوامی یوم یوگ 2021 کے موقع پر ایم- یوگا ایپ کا آغاز کیا",
+    "split": "val"
+  },
+  {
+    "pair_id": 296242,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "gu",
+    "target_lang": "en",
+    "source_text": "7મા આંતરરાષ્ટ્રીય યોગ દિવસ 2021એ પ્રધાનમંત્રીએ એમ-યોગ એપનો શુભારંભ કર્યો",
+    "target_text": "Prime Minister launches M-Yoga App on 7th International Day of Yoga 2021",
+    "split": "val"
+  },
+  {
+    "pair_id": 296243,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "gu",
+    "target_lang": "hi",
+    "source_text": "7મા આંતરરાષ્ટ્રીય યોગ દિવસ 2021એ પ્રધાનમંત્રીએ એમ-યોગ એપનો શુભારંભ કર્યો",
+    "target_text": "प्रधानमंत्री ने 7वें अंतर्राष्ट्रीय योग दिवस 2021 पर एम-योग ऐप लॉन्च किया",
+    "split": "val"
+  },
+  {
+    "pair_id": 296244,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "gu",
+    "target_lang": "bn",
+    "source_text": "7મા આંતરરાષ્ટ્રીય યોગ દિવસ 2021એ પ્રધાનમંત્રીએ એમ-યોગ એપનો શુભારંભ કર્યો",
+    "target_text": "সপ্তম আন্তর্জাতিক যোগ দিবস ২০২১ উপলক্ষে এম-যোগ অ্যাপ-এর সূচনা প্রধানমন্ত্রীর",
+    "split": "val"
+  },
+  {
+    "pair_id": 296245,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "gu",
+    "target_lang": "kn",
+    "source_text": "7મા આંતરરાષ્ટ્રીય યોગ દિવસ 2021એ પ્રધાનમંત્રીએ એમ-યોગ એપનો શુભારંભ કર્યો",
+    "target_text": "7ನೇ ಅಂತರರಾಷ್ಟ್ರೀಯ ದಿನದಂದು ಪ್ರಧಾನಿ ಎಂ-ಯೋಗ ಆ್ಯಪ್ ನ ಲೋಕಾರ್ಪಣೆ ನೆರವೇರಿಸಿದರು",
+    "split": "val"
+  },
+  {
+    "pair_id": 296246,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "gu",
+    "target_lang": "ml",
+    "source_text": "7મા આંતરરાષ્ટ્રીય યોગ દિવસ 2021એ પ્રધાનમંત્રીએ એમ-યોગ એપનો શુભારંભ કર્યો",
+    "target_text": "2021 ലെ ഏഴാമത് അന്താരാഷ്ട്ര യോഗ ദിനത്തിൽ പ്രധാനമന്ത്രി എം-യോഗ ആപ്പ് പുറത്തിറക്കി",
+    "split": "val"
+  },
+  {
+    "pair_id": 296247,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "gu",
+    "target_lang": "mr",
+    "source_text": "7મા આંતરરાષ્ટ્રીય યોગ દિવસ 2021એ પ્રધાનમંત્રીએ એમ-યોગ એપનો શુભારંભ કર્યો",
+    "target_text": "सातव्या आंतरराष्ट्रीय योगदिनानिमित्त पंतप्रधानांच्या हस्ते M-Yoga अॅपचा शुभारंभ",
+    "split": "val"
+  },
+  {
+    "pair_id": 296248,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "gu",
+    "target_lang": "or",
+    "source_text": "7મા આંતરરાષ્ટ્રીય યોગ દિવસ 2021એ પ્રધાનમંત્રીએ એમ-યોગ એપનો શુભારંભ કર્યો",
+    "target_text": "ସପ୍ତମ ଆନ୍ତର୍ଜାତିକ ଯୋଗଦିବସ ୨୦୨୧ ଅବସରରେ ପ୍ରଧାନମନ୍ତ୍ରୀଙ୍କ ଦ୍ୱାରା ଏମ୍-ଯୋଗ ଆପ୍ର ଶୁଭାରମ୍ଭ",
+    "split": "val"
+  },
+  {
+    "pair_id": 296249,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "gu",
+    "target_lang": "pa",
+    "source_text": "7મા આંતરરાષ્ટ્રીય યોગ દિવસ 2021એ પ્રધાનમંત્રીએ એમ-યોગ એપનો શુભારંભ કર્યો",
+    "target_text": "ਪ੍ਰਧਾਨ ਮੰਤਰੀ ਨੇ 7ਵੇਂ ‘ਅੰਤਰਰਾਸ਼ਟਰੀ ਯੋਗ ਦਿਵਸ 2021’ ਦੇ ਅਵਸਰ ‘ਤੇ ਐੱਮ-ਯੋਗ  ਐਪ ਲਾਂਚ ਕੀਤੀ",
+    "split": "val"
+  },
+  {
+    "pair_id": 296250,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "gu",
+    "target_lang": "ta",
+    "source_text": "7મા આંતરરાષ્ટ્રીય યોગ દિવસ 2021એ પ્રધાનમંત્રીએ એમ-યોગ એપનો શુભારંભ કર્યો",
+    "target_text": "ஏழாவது சர்வதேச யோகா தினம் 2021 அன்று எம்-யோகா செயலியை பிரதமர் அறிமுகப்படுத்தினார்",
+    "split": "val"
+  },
+  {
+    "pair_id": 296251,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "gu",
+    "target_lang": "te",
+    "source_text": "7મા આંતરરાષ્ટ્રીય યોગ દિવસ 2021એ પ્રધાનમંત્રીએ એમ-યોગ એપનો શુભારંભ કર્યો",
+    "target_text": "7వ అంతర్జాతీయ యోగా-2021 రోజున \"ఎం-యోగా\" యాప్ ను ప్రారంభించిన - ప్రధానమంత్రి",
+    "split": "val"
+  },
+  {
+    "pair_id": 296252,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "gu",
+    "target_lang": "ur",
+    "source_text": "7મા આંતરરાષ્ટ્રીય યોગ દિવસ 2021એ પ્રધાનમંત્રીએ એમ-યોગ એપનો શુભારંભ કર્યો",
+    "target_text": "وزیر اعظم نے 7ویں بین الاقوامی یوم یوگ 2021 کے موقع پر ایم- یوگا ایپ کا آغاز کیا",
+    "split": "val"
+  },
+  {
+    "pair_id": 296253,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "kn",
+    "target_lang": "en",
+    "source_text": "7ನೇ ಅಂತರರಾಷ್ಟ್ರೀಯ ದಿನದಂದು ಪ್ರಧಾನಿ ಎಂ-ಯೋಗ ಆ್ಯಪ್ ನ ಲೋಕಾರ್ಪಣೆ ನೆರವೇರಿಸಿದರು",
+    "target_text": "Prime Minister launches M-Yoga App on 7th International Day of Yoga 2021",
+    "split": "val"
+  },
+  {
+    "pair_id": 296254,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "kn",
+    "target_lang": "hi",
+    "source_text": "7ನೇ ಅಂತರರಾಷ್ಟ್ರೀಯ ದಿನದಂದು ಪ್ರಧಾನಿ ಎಂ-ಯೋಗ ಆ್ಯಪ್ ನ ಲೋಕಾರ್ಪಣೆ ನೆರವೇರಿಸಿದರು",
+    "target_text": "प्रधानमंत्री ने 7वें अंतर्राष्ट्रीय योग दिवस 2021 पर एम-योग ऐप लॉन्च किया",
+    "split": "val"
+  },
+  {
+    "pair_id": 296255,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "kn",
+    "target_lang": "bn",
+    "source_text": "7ನೇ ಅಂತರರಾಷ್ಟ್ರೀಯ ದಿನದಂದು ಪ್ರಧಾನಿ ಎಂ-ಯೋಗ ಆ್ಯಪ್ ನ ಲೋಕಾರ್ಪಣೆ ನೆರವೇರಿಸಿದರು",
+    "target_text": "সপ্তম আন্তর্জাতিক যোগ দিবস ২০২১ উপলক্ষে এম-যোগ অ্যাপ-এর সূচনা প্রধানমন্ত্রীর",
+    "split": "val"
+  },
+  {
+    "pair_id": 296256,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "kn",
+    "target_lang": "gu",
+    "source_text": "7ನೇ ಅಂತರರಾಷ್ಟ್ರೀಯ ದಿನದಂದು ಪ್ರಧಾನಿ ಎಂ-ಯೋಗ ಆ್ಯಪ್ ನ ಲೋಕಾರ್ಪಣೆ ನೆರವೇರಿಸಿದರು",
+    "target_text": "7મા આંતરરાષ્ટ્રીય યોગ દિવસ 2021એ પ્રધાનમંત્રીએ એમ-યોગ એપનો શુભારંભ કર્યો",
+    "split": "val"
+  },
+  {
+    "pair_id": 296257,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "kn",
+    "target_lang": "ml",
+    "source_text": "7ನೇ ಅಂತರರಾಷ್ಟ್ರೀಯ ದಿನದಂದು ಪ್ರಧಾನಿ ಎಂ-ಯೋಗ ಆ್ಯಪ್ ನ ಲೋಕಾರ್ಪಣೆ ನೆರವೇರಿಸಿದರು",
+    "target_text": "2021 ലെ ഏഴാമത് അന്താരാഷ്ട്ര യോഗ ദിനത്തിൽ പ്രധാനമന്ത്രി എം-യോഗ ആപ്പ് പുറത്തിറക്കി",
+    "split": "val"
+  },
+  {
+    "pair_id": 296258,
+    "doc_id": "pralekha_12way_doc_0001",
+    "source_lang": "kn",
+    "target_lang": "mr",
+    "source_text": "7ನೇ ಅಂತರರಾಷ್ಟ್ರೀಯ ದಿನದಂದು ಪ್ರಧಾನಿ ಎಂ-ಯೋಗ ಆ್ಯಪ್ ನ ಲೋಕಾರ್ಪಣೆ ನೆರವೇರಿಸಿದರು",
+    "target_text": "सातव्या आंतरराष्ट्रीय योगदिनानिमित्त पंतप्रधानांच्या हस्ते M-Yoga अॅपचा शुभारंभ",
+    "split": "val"
+  }
+]

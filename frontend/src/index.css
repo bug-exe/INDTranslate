@@ -1,0 +1,357 @@
+/* impeccable-disable-next-line overused-font -- Intentional font stack */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800&family=Noto+Sans:wght@300;400;500;600;700;800&family=Rozha+One&family=Noto+Sans+Bengali:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Noto+Sans+Gujarati:wght@400;500;600;700&family=Noto+Sans+Gurmukhi:wght@400;500;600;700&family=Noto+Sans+Kannada:wght@400;500;600;700&family=Noto+Sans+Malayalam:wght@400;500;600;700&family=Noto+Sans+Oriya:wght@400;500;600;700&family=Noto+Sans+Tamil:wght@400;500;600;700&family=Noto+Sans+Telugu:wght@400;500;600;700&family=Noto+Nastaliq+Urdu:wght@400;700&family=Noto+Sans+Ol+Chiki:wght@400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Matte Dark Design Language Tokens (Default) */
+  --color-canvas: #0e1015;
+  --color-surface: #181a20;
+  --color-surface-hover: #1f222a;
+  --color-surface-elevated: #22252e;
+  --color-sidebar: #111317;
+  --color-border: #262933;
+  --color-border-subtle: #1c1f27;
+  --color-border-hover: #373c49;
+  
+  /* Electric Blue Brand Accent */
+  --color-accent: #2563eb;
+  --color-accent-hover: #1d4ed8;
+  --color-accent-light: #3b82f6;
+  --color-accent-glow: rgba(37, 99, 235, 0.25);
+  
+  /* Typography Tokens */
+  --color-text-primary: #f3f4f6;
+  --color-text-secondary: #9ca3af;
+  --color-text-muted: #6b7280;
+  --color-text-dim: #4b5563;
+  
+  /* Indian National Micro-Accents */
+  --color-saffron: #ff671f;
+  --color-saffron-light: #ff9933;
+  --color-emerald: #10b981;
+  --color-emerald-deep: #059669;
+  --color-chakra: #3b82f6;
+  --color-chakra-deep: #1d4ed8;
+}
+
+/* Light Mode Overrides if explicitly requested */
+.light:not(.dark) {
+  --color-canvas: #f8fafc;
+  --color-surface: #ffffff;
+  --color-surface-hover: #f1f5f9;
+  --color-surface-elevated: #ffffff;
+  --color-sidebar: #f8fafc;
+  --color-border: #e2e8f0;
+  --color-border-subtle: #f1f5f9;
+  --color-border-hover: #cbd5e1;
+  --color-text-primary: #0f172a;
+  --color-text-secondary: #475569;
+  --color-text-muted: #64748b;
+  --color-text-dim: #94a3b8;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+    color-scheme: dark;
+  }
+
+  body {
+    background-color: #0e1015;
+    color: #f3f4f6;
+    /* impeccable-disable-next-line overused-font -- Intentional font stack */
+    font-family: 'Plus Jakarta Sans', 'Inter', 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11", "kern", "liga";
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100vh;
+    caret-color: #2563eb;
+    margin: 0;
+    overflow-x: hidden;
+  }
+
+  /* Universal Selection: Electric Blue & Clean White */
+  ::selection {
+    background-color: #2563eb;
+    color: #ffffff;
+  }
+
+  /* High contrast accessible focus indicators */
+  :focus-visible {
+    outline: 2px solid #2563eb;
+    outline-offset: 2px;
+  }
+}
+
+/* Indic Script Typography Tuning & Fallback Stack */
+.font-indic,
+[lang^="hi"],
+[lang^="bn"],
+[lang^="te"],
+[lang^="ta"],
+[lang^="mr"],
+[lang^="gu"],
+[lang^="kn"],
+[lang^="ml"],
+[lang^="or"],
+[lang^="pa"],
+[lang^="as"],
+[lang^="ur"],
+[lang^="sa"],
+[lang^="mai"],
+[lang^="bho"],
+[lang^="sat"] {
+  font-family: "Noto Sans Devanagari", "Kohinoor Devanagari", "Noto Sans Bengali", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Gujarati", "Noto Sans Kannada", "Noto Sans Malayalam", "Noto Sans Gurmukhi", "Noto Sans Oriya", "Noto Nastaliq Urdu", "Noto Sans Ol Chiki", "Nirmala UI", sans-serif;
+  line-height: 1.6;
+  font-feature-settings: "kern", "liga", "clig", "calt";
+  text-rendering: optimizeLegibility;
+}
+
+/* Tabular Numbers */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Refined Sleek Matte Dark Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0e1015;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #262933;
+  border-radius: 9999px;
+  border: 1px solid #0e1015;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #373c49;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #262933 #0e1015;
+}
+
+/* ==========================================================================
+   Matte Dark Design Tokens & Component Classes
+   ========================================================================== */
+
+/* Main canvas background */
+.bg-canvas {
+  background-color: #0e1015;
+}
+
+/* Card container standard (#181a20) with border (#262933) */
+.card-matte {
+  background-color: #181a20;
+  border: 1px solid #262933;
+  border-radius: 1.5rem;
+}
+
+.card-matte-elevated {
+  background-color: #1f222a;
+  border: 1px solid #2b303c;
+  border-radius: 1.5rem;
+  box-shadow: 0 12px 36px -8px rgba(0, 0, 0, 0.6);
+}
+
+/* Interactive Pills */
+.pill-chip {
+  background-color: #181a20;
+  border: 1px solid #262933;
+  color: #9ca3af;
+  border-radius: 9999px;
+  padding: 0.375rem 0.875rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.pill-chip:hover {
+  border-color: #3b4252;
+  color: #f3f4f6;
+  background-color: #1e2129;
+}
+
+.pill-chip-active {
+  background-color: #2563eb;
+  border-color: #2563eb;
+  color: #ffffff;
+  box-shadow: 0 2px 10px rgba(37, 99, 235, 0.35);
+}
+
+.pill-chip-active:hover {
+  background-color: #1d4ed8;
+  border-color: #1d4ed8;
+  color: #ffffff;
+}
+
+/* Floating Blue Swap Button (⇄) */
+.btn-swap-floating {
+  width: 44px;
+  height: 44px;
+  border-radius: 9999px;
+  background: #2563eb;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 16px rgba(37, 99, 235, 0.45);
+  border: 3px solid #0e1015;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  cursor: pointer;
+}
+
+.btn-swap-floating:hover {
+  background: #1d4ed8;
+  transform: scale(1.08) rotate(180deg);
+  box-shadow: 0 6px 22px rgba(37, 99, 235, 0.6);
+}
+
+.btn-swap-floating:active {
+  transform: scale(0.95) rotate(180deg);
+}
+
+/* Electric Blue Glows */
+.glow-accent {
+  box-shadow: 0 0 25px rgba(37, 99, 235, 0.3);
+}
+
+.glow-accent-subtle {
+  box-shadow: 0 0 15px rgba(37, 99, 235, 0.15);
+}
+
+/* Audio Waveform Simulation Bar */
+.waveform-bar {
+  display: inline-block;
+  width: 3px;
+  background-color: #2563eb;
+  border-radius: 9999px;
+  transition: height 0.15s ease;
+}
+
+/* Glass Panels with Matte Dark Backing */
+.glass-panel {
+  background: rgba(24, 26, 32, 0.94);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid #262933;
+  box-shadow: 0 8px 32px -4px rgba(0, 0, 0, 0.5);
+}
+
+.glass-panel-dark {
+  background: rgba(24, 26, 32, 0.94);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid #262933;
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.5);
+}
+
+.glass-card {
+  background: #181a20;
+  border: 1px solid #262933;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.4);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-card:hover {
+  border-color: #373c49;
+  box-shadow: 0 10px 30px -4px rgba(0, 0, 0, 0.6);
+}
+
+.glass-header {
+  background: rgba(14, 16, 21, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid #262933;
+}
+
+.glass-pill {
+  background: #181a20;
+  border: 1px solid #262933;
+}
+
+/* Micro-accent Indic Badges */
+.badge-saffron {
+  background-color: rgba(255, 103, 31, 0.12);
+  color: #ff9933;
+  border: 1px solid rgba(255, 103, 31, 0.3);
+}
+
+.badge-emerald {
+  background-color: rgba(16, 185, 129, 0.12);
+  color: #34d399;
+  border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.badge-chakra {
+  background-color: rgba(37, 99, 235, 0.15);
+  color: #60a5fa;
+  border: 1px solid rgba(37, 99, 235, 0.3);
+}
+
+/* Ambient Subtle Background Grid for Matte Dark Canvas */
+.bg-ambient-mesh {
+  background-image: 
+    radial-gradient(circle at 10% 20%, rgba(37, 99, 235, 0.05) 0%, transparent 45%),
+    radial-gradient(circle at 90% 80%, rgba(16, 185, 129, 0.03) 0%, transparent 45%),
+    radial-gradient(circle at 50% 50%, rgba(255, 103, 31, 0.03) 0%, transparent 50%);
+}
+
+.bg-dot-matrix {
+  background-image: radial-gradient(#262933 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Shimmer Animation */
+.shimmer-active {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.08) 50%, rgba(255, 255, 255, 0) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 2.5s infinite;
+}
+
+/* Accessibility: High Contrast Mode */
+@media (prefers-contrast: more) {
+  :root {
+    --color-border: #475569;
+  }
+
+  .card-matte,
+  .glass-panel,
+  .glass-card {
+    background: #000000 !important;
+    border: 2px solid #ffffff !important;
+    box-shadow: none !important;
+  }
+
+  :focus-visible {
+    outline: 3px solid #60a5fa !important;
+    outline-offset: 3px !important;
+  }
+}
+
+/* Accessibility: Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,87 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Node & Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+.npm
+
+# Pytest & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs & temp
+*.log
+backend/cache/
+.DS_Store
+.impeccable/
+.agent/
+.agents/
+.gemini/
+
+# Large Datasets and Databases (exceeding GitHub 100MB limit)
+*.db
+**/*.db
+*.db*
+**/*.db*
+*.sqlite
+**/*.sqlite
+*.sqlite3
+**/*.sqlite3
+
+# Large Model Weights and Foundation Checkpoints (exceeding GitHub 100MB limit)
+*.safetensors
+**/*.safetensors
+*.bin
+**/*.bin
+*checkpoint*.pt
+**/*checkpoint*.pt
+backend/saved_models/foundation/
+backend/saved_models/sarvam_translate/
+backend/saved_models/pralekha/*.pt
+backend/saved_models/pralekha/**/*.pt
+backend/saved_models/pralekha/backup_6m/
+backend/saved_models/nllb_finetuned/*checkpoint*.pt
+
+# Keep lightweight LoRA weights, vocabularies, and configs tracked (<5MB)
+!backend/saved_models/nllb_finetuned/nllb_lora_weights.pt
+!backend/saved_models/nllb_finetuned/adapter_config.json
+!backend/saved_models/nllb_finetuned/training_summary.json
+!backend/saved_models/isl_model.keras
+
+# Environment variables & secrets
+.env
+*.env

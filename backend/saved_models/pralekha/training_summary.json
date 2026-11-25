@@ -1,0 +1,18 @@
+{
+  "model_name": "AI4Bharat Pralekha Direct Indic-to-Indic Model",
+  "architecture": "Seq2Seq Transformer (Encoder-Decoder)",
+  "dataset": "backend/data/pralekha_strict_12way.db (500,000 pairs across 132 directions)",
+  "d_model": 512,
+  "nhead": 8,
+  "layers": "6 enc / 6 dec",
+  "vocab_size": 16000,
+  "languages": 23,
+  "language_directions": 132,
+  "final_train_loss": 2.336,
+  "final_val_loss": 1.5035,
+  "epochs_completed": 2,
+  "checkpoint_file": "pralekha_checkpoint.pt",
+  "safetensors_file": "model.safetensors",
+  "config_file": "config.json",
+  "status": "operational_trained"
+}

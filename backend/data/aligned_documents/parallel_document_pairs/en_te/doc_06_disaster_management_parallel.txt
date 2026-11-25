@@ -1,0 +1,8 @@
+=== Disaster Preparedness: Early Warning Systems and Resilient Communities | విపత్తు నిర్వహణ: ముందస్తు హెచ్చరిక వ్యవస్థలు మరియు సమాజ సంసిద్ధత ===
+
+[EN] Early weather warnings powered by Doppler radar and satellite networks provide coastal villages critical hours to evacuate safely.
+[TE] డాప్లర్ రాడార్ మరియు ఉపగ్రహ నెట్‌వర్క్‌ల ద్వారా అందించే ముందస్తు వాతావరణ హెచ్చరికలు తీరప్రాంత గ్రామాల ప్రజలను సురక్షిత ప్రాంతాలకు తరలించడానికి విలువైన సమయాన్ని అందిస్తాయి.
+
+[EN] Equipping local rescue teams with satellite communications and emergency medical supplies saves thousands of lives during extreme cyclones.
+[TE] స్థానిక రెస్క్యూ బృందాలకు ఉపగ్రహ కమ్యూనికేషన్లు మరియు అత్యవసర వైద్య సామాగ్రిని అందించడం తీవ్రమైన తుఫానుల సమయంలో వేలాది మంది ప్రాణాలను కాపాడుతుంది.
+

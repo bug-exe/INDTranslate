@@ -1,0 +1,8 @@
+=== National Education Policy: Foundational Literacy and Holistic Education | జాతీయ విద్యా విధానం: ప్రాథమిక అక్షరాస్యత మరియు సమగ్ర విద్య ===
+
+[EN] Foundational literacy and numeracy are urgent prerequisites to all future learning and intellectual growth.
+[TE] ప్రాథమిక అక్షరాస్యత మరియు సంఖ్యాజ్ఞానం భవిష్యత్ అభ్యాసానికి మరియు మేధో వికాసానికి అత్యవసరమైన ముందస్తు అవసరాలు.
+
+[EN] Instruction in early school years should be imparted in the student's mother tongue to foster cognitive development.
+[TE] జ్ఞానపరమైన వికాసాన్ని పెంపొందించడానికి ప్రారంభ పాఠశాల సంవత్సరాలలో విద్యార్థి మాతృభాషలోనే బోధన అందించాలి.
+

@@ -1,0 +1,178 @@
+{
+  "status": "operational",
+  "database_file": "/home/bugexe/Documents/INDTranslate/backend/data/pralekha_strict_12way.db",
+  "total_documents": 8943,
+  "total_aligned_sentences": 63858,
+  "total_training_pairs": 8429256,
+  "splits": {
+    "test": 421740,
+    "train": 7169976,
+    "val": 837540
+  },
+  "domains": {
+    "agriculture": 30,
+    "culture": 389,
+    "education": 31,
+    "governance": 617,
+    "health": 2543,
+    "infrastructure": 81,
+    "science_tech": 5252
+  },
+  "official_languages": [
+    "en",
+    "hi",
+    "bn",
+    "gu",
+    "kn",
+    "ml",
+    "mr",
+    "or",
+    "pa",
+    "ta",
+    "te",
+    "ur"
+  ],
+  "language_pairs_covered": 132,
+  "recent_documents": [
+    {
+      "doc_id": "pralekha_12way_doc_08943",
+      "title": "Prime Minister's Office",
+      "domain": "science_tech",
+      "sentence_count": 6,
+      "created_at": "2026-11-23 01:52:36"
+    },
+    {
+      "doc_id": "pralekha_12way_doc_08942",
+      "title": "Prime Minister's Office",
+      "domain": "science_tech",
+      "sentence_count": 4,
+      "created_at": "2026-11-23 01:52:35"
+    },
+    {
+      "doc_id": "pralekha_12way_doc_08941",
+      "title": "Prime Minister's Office",
+      "domain": "science_tech",
+      "sentence_count": 6,
+      "created_at": "2026-11-23 01:52:34"
+    },
+    {
+      "doc_id": "pralekha_12way_doc_08940",
+      "title": "Prime Minister's Office",
+      "domain": "science_tech",
+      "sentence_count": 6,
+      "created_at": "2026-11-23 01:52:32"
+    },
+    {
+      "doc_id": "pralekha_12way_doc_08939",
+      "title": "Ministry of Health and Family Welfare",
+      "domain": "health",
+      "sentence_count": 7,
+      "created_at": "2026-11-23 01:52:31"
+    },
+    {
+      "doc_id": "pralekha_12way_doc_08938",
+      "title": "Prime Minister's Office",
+      "domain": "science_tech",
+      "sentence_count": 5,
+      "created_at": "2026-11-23 01:52:29"
+    },
+    {
+      "doc_id": "pralekha_12way_doc_08937",
+      "title": "Prime Minister's Office",
+      "domain": "science_tech",
+      "sentence_count": 6,
+      "created_at": "2026-11-23 01:52:28"
+    },
+    {
+      "doc_id": "pralekha_12way_doc_08936",
+      "title": "Cabinet Committee on Economic Affairs",
+      "domain": "science_tech",
+      "sentence_count": 9,
+      "created_at": "2026-11-23 01:52:27"
+    },
+    {
+      "doc_id": "pralekha_12way_doc_08935",
+      "title": "Prime Minister's Office",
+      "domain": "science_tech",
+      "sentence_count": 5,
+      "created_at": "2026-11-23 01:52:25"
+    },
+    {
+      "doc_id": "pralekha_12way_doc_08934",
+      "title": "Prime Minister's Office",
+      "domain": "health",
+      "sentence_count": 7,
+      "created_at": "2026-11-23 01:52:24"
+    },
+    {
+      "doc_id": "pralekha_12way_doc_08933",
+      "title": "Prime Minister's Office",
+      "domain": "science_tech",
+      "sentence_count": 6,
+      "created_at": "2026-11-23 01:52:22"
+    },
+    {
+      "doc_id": "pralekha_12way_doc_08932",
+      "title": "Prime Minister's Office",
+      "domain": "science_tech",
+      "sentence_count": 3,
+      "created_at": "2026-11-23 01:52:21"
+    },
+    {
+      "doc_id": "pralekha_12way_doc_08931",
+      "title": "Prime Minister's Office",
+      "domain": "science_tech",
+      "sentence_count": 6,
+      "created_at": "2026-11-23 01:52:20"
+    },
+    {
+      "doc_id": "pralekha_12way_doc_08930",
+      "title": "Prime Minister's Office",
+      "domain": "health",
+      "sentence_count": 9,
+      "created_at": "2026-11-23 01:52:18"
+    },
+    {
+      "doc_id": "pralekha_12way_doc_08929",
+      "title": "Prime Minister's Office",
+      "domain": "science_tech",
+      "sentence_count": 7,
+      "created_at": "2026-11-23 01:52:17"
+    },
+    {
+      "doc_id": "pralekha_12way_doc_08928",
+      "title": "Prime Minister's Office",
+      "domain": "science_tech",
+      "sentence_count": 4,
+      "created_at": "2026-11-23 01:52:16"
+    },
+    {
+      "doc_id": "pralekha_12way_doc_08927",
+      "title": "Prime Minister's Office",
+      "domain": "science_tech",
+      "sentence_count": 5,
+      "created_at": "2026-11-23 01:52:14"
+    },
+    {
+      "doc_id": "pralekha_12way_doc_08926",
+      "title": "Prime Minister's Office",
+      "domain": "science_tech",
+      "sentence_count": 7,
+      "created_at": "2026-11-23 01:52:13"
+    },
+    {
+      "doc_id": "pralekha_12way_doc_08925",
+      "title": "Prime Minister's Office",
+      "domain": "science_tech",
+      "sentence_count": 5,
+      "created_at": "2026-11-23 01:52:11"
+    },
+    {
+      "doc_id": "pralekha_12way_doc_08924",
+      "title": "Prime Minister's Office",
+      "domain": "health",
+      "sentence_count": 7,
+      "created_at": "2026-11-23 01:52:10"
+    }
+  ]
+}
